@@ -76,7 +76,7 @@ const ProductCard = (props) => {
         )}
         {p.state == "notavailable" ? (
           <span className="product-span">
-            <div className="notavailable">NO DISPONIBLE</div>
+            <div className="notavailable">NO AVAILABLE</div>
             <img
               className="product-img-filter-notavailable"
               src={p.imageUrl}
@@ -88,7 +88,7 @@ const ProductCard = (props) => {
         )}
         {p.state == "available" ? (
           <span className="product-span">
-            <div className="available">DISPONIBLE</div>
+            <div className="available">AVAILABLE</div>
             <img className="product-img" src={p.imageUrl} loading="lazy" />
           </span>
         ) : (
@@ -108,7 +108,7 @@ const ProductCard = (props) => {
         <span className="price">{formatPrice(p.price)}</span>
         <div className="box">
           <img className="icon" src="./whatsapp-icon.png" />
-          <button className="payment">Comprar</button>
+          <button className="payment">&nbsp;Contact</button>
         </div>
       </div>
     </div>

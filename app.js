@@ -10,8 +10,7 @@ class App extends React.PureComponent {
           Garage Sale: 2LE Unit 559
         </header>
         <h3 className="subtitle">
-          Zelle payment acepted. Only in The woodlands, Two Lakes Edge area.
-          <h4>(Some delivery dates can vary)</h4>
+          Zelle payment accepted. Only in The woodlands, Two Lakes Edge area.
           <p>
             If you click over the images you can find more info about the product
           </p>

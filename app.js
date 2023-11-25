@@ -37,7 +37,6 @@ const ProductCard = (props) => {
     p.toLocaleString("en-US", {
       style: "currency",
       currency: "USD",
-      maximumFractionDigits: "0",
     });
   const discount = Math.round(100 - (p.price / p.originalPrice) * 100);
 

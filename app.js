@@ -3,17 +3,13 @@
 const tel = "tel:+1-346-497-8554";
 class App extends React.PureComponent {
   render() {
-
-
-    //const sortedProducts = this.props.products.sort((a, b) => a.price - b.price)
-
     return (
       <div>
         <header>
           Garage Sale: 2LE Unit 559
         </header>
         <h3 className="subtitle">
-          Zelle payment accepted. Only in The woodlands, Two Lakes Edge area.
+          Cash and Zelle payment accepted. Only in The woodlands, Two Lakes Edge area.
           <p>
             If you click over the images you can find more info about the product
           </p>
@@ -115,10 +111,8 @@ const ProductCard = (props) => {
 fetch("./data.json")
   .then((response) => response.json())
   .then((productsData) => {
-    // Assuming the JSON contains an array of products
-    const products = productsData;
-    ReactDOM.render(
-      <App products={products} />,
+      ReactDOM.render(
+      <App products={productsData} />,
       document.getElementById("root")
     );
   });

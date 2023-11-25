@@ -1,5 +1,24 @@
 [
   {
+    "name": "Bedroom Set",
+    "url": "",
+    "imageUrl": "/img/bedroom-set.jpg",
+    "originalPrice": 4200,
+    "price": 999,
+    "details": [
+      "ALMOST NEW!",
+      "OLED Evo",
+      "Home Cinema (Dolby Vision / Dolby Atmos / Filmmaker Mode)",
+      "Refined Design",
+      "a9 Gen5 AI Processor 4K",
+      "Ultimate Gaming (G‑SYNC compatible, FreeSync Premium, VRR. 4K @ 120Hz)",
+      "Brightness Booster",
+      "Netflix/YouTube/PrimeVideo/Spotify",
+      "4K, 4 HDMI ports, Internet Wifi"
+    ],
+    "state": "available"
+  },
+  {
     "name": "LG OLED EVO 65 C2",
     "url": "https://www.conns.com/lg-65-c2-evo-oled-tv-oled65c2pua.html?utm_content=TV+%26+Audio+%26+Electronics+%3E+Televisions+%3E+OLED+TVs&utm_medium=cpc&utm_source=google&utm_campaign=conns_us_ggl_pla_shopping_tvs-sale_pros_na_na_na_na_na_eng&utm_id=20310463134&utm_content=LG&utm_term=PRODUCT_GROUP&device=c&gad_source=1&gclid=CjwKCAiA04arBhAkEiwAuNOsInuHafuTEzG0XMWV4pj6tRFR5RX_HXpNmY01OQbLMna9HTfcStqeXhoCSqwQAvD_BwE&gclsrc=aw.ds",
     "imageUrl": "https://cdn11.bigcommerce.com/s-s8pq4kiarm/images/stencil/1280x1280/products/6026/88620/2022_OLED55C2PUA_1_i2t0ub__50259.1696358621.jpg?c=1",

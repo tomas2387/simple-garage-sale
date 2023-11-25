@@ -100,13 +100,13 @@ const ProductCard = (props) => {
           ))}
         </ul>
       </div>
-      <div onClick={goWhatsapp} className="box-price">
+      <a href={tel} className="box-price">
         <span className="price">{formatPrice(p.price)}</span>
         <div className="box">
           <img className="icon" src="./whatsapp-icon.png" />
-          <a href={tel} className="payment">&nbsp;Contact</a>
+          <button className="payment">&nbsp;Contact</button>
         </div>
-      </div>
+      </a>
     </div>
   );
 };

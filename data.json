@@ -1,8 +1,8 @@
 [
   {
     "name": "FULL Bedroom Set",
-    "url": "",
-    "imageUrl": "/simple-garage-sale/img/bedroom-set.jpg",
+    "url": "https://tomas2387.github.io/simple-garage-sale/img/beedroom-set.png",
+    "imageUrl": "img/bedroom-set.png",
     "originalPrice": 4200,
     "price": 1999,
     "details": [

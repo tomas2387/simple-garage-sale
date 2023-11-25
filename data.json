@@ -8,10 +8,19 @@
     "details": [
       "Bed",
       "Headboard",
-      "Free Mattress",
+      "Mattress for free",
       "Rize Adjustable Base + Massage",
       "Two Nightstands",
       "Two Lamps"
+    ],
+    "state": "available"
+  }, {
+    "name": "Convertible Sofa",
+    "url": "https://www.samsclub.com/p/morgan-sofa-spring-2018/prod22101981?xid=plp_product_3",
+    "imageUrl": "img/bedroom-set.png",
+    "originalPrice": 600,
+    "price": 300,
+    "details": [
     ],
     "state": "available"
   },
@@ -102,6 +111,7 @@
     "price": 1200,
     "details": [
       "ALMOST NEW!",
+      "Comes with original box, warranty and remote control",
       "OLED Evo",
       "Home Cinema (Dolby Vision / Dolby Atmos / Filmmaker Mode)",
       "Refined Design",

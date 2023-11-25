@@ -7,16 +7,13 @@ class App extends React.PureComponent {
     return (
       <div>
         <header>
-          Venta de Cositas de
-          <br />
-          Milena & Julian
+          Garage Sale: 2LE Unit 559
         </header>
         <h3 className="subtitle">
-          Se aceptan pagos por Nequi, Colpatria, Efectivo o Paypal. Solo Bogota.
-          <h4>(Algunas fechas de entrega podrian variar por algunos días)</h4>
+          Zelle payment acepted. Only in The woodlands, Two Lakes Edge area.
+          <h4>(Some delivery dates can vary)</h4>
           <p>
-            Al hacer clic/tocar sobre las imagenes encontrás mas información de
-            producto
+            If you click over the images you can find more info about the product
           </p>
         </h3>
         <ProductList products={this.props.products} />

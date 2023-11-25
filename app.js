@@ -1,7 +1,10 @@
 "use strict";
 
+const tel = "tel:+1-346-497-8554";
 class App extends React.PureComponent {
   render() {
+
+
     //const sortedProducts = this.props.products.sort((a, b) => a.price - b.price)
 
     return (
@@ -39,12 +42,6 @@ const ProductCard = (props) => {
       currency: "USD",
     });
   const discount = Math.round(100 - (p.price / p.originalPrice) * 100);
-
-  const goWhatsapp = () =>
-    window.open(
-      `phone://+13464978554`,
-      "_blank"
-    );
 
   return (
     <div className="product">
@@ -107,7 +104,7 @@ const ProductCard = (props) => {
         <span className="price">{formatPrice(p.price)}</span>
         <div className="box">
           <img className="icon" src="./whatsapp-icon.png" />
-          <button className="payment">&nbsp;Contact</button>
+          <a href={tel} className="payment">&nbsp;Contact</a>
         </div>
       </div>
     </div>

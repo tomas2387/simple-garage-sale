@@ -42,7 +42,7 @@ const ProductCard = (props) => {
 
   const goWhatsapp = () =>
     window.open(
-      `https://api.whatsapp.com/send?phone=+13464978554&text=Hi!%2C%20Im%20interested%20in%20${p.name}`,
+      `phone://+13464978554`,
       "_blank"
     );
 

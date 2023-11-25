@@ -29,6 +29,19 @@
     "state": "available"
   },
   {
+    "name": "Office Furniture",
+    "url": "https://www.amazon.com/dp/B07TM7THFD?ref_=cm_sw_r_apin_dp_2CCF2551PP8A711K0405&th=1",
+    "imageUrl": "https://drive.google.com/file/d/1coy9YDkIwbMkcj9_jucRpwmvg8mPh-n7/view?usp=sharing",
+    "originalPrice":  112.79,
+    "price": 75,
+    "details": [
+      "Space friendly bedroom or sofa table",
+      "Gold finish with gray faux marble",
+      "Size: 52\" W x 10\" D x 29\" H"
+    ],
+    "state": "available"
+  },
+  {
     "name": "White TV Stand",
     "url": "https://www.amazon.com/dp/B0C2C2C1V9?ref_=cm_sw_r_apin_dp_1M5XZVZE211TMD9TA9V3",
     "imageUrl": "https://m.media-amazon.com/images/I/71WJncf7udL._AC_SX679_.jpg",

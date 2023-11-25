@@ -1,6 +1,6 @@
 [
   {
-    "name": "Bedroom Set",
+    "name": "FULL Bedroom Set",
     "url": "",
     "imageUrl": "/img/bedroom-set.jpg",
     "originalPrice": 4200,
@@ -11,7 +11,7 @@
       "Zero Gravity Mattress",
       "Rize Adjustable Base + Massage",
       "Two Nightstands",
-      "Lamps"
+      "Two Lamps"
     ],
     "state": "available"
   },

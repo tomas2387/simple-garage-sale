@@ -84,6 +84,28 @@
     "state": "available"
   },
   {
+    "name": "Ergonomic Chair HAG Capisco",
+    "url": "https://www.ergoworkx.com/shop/capisco-chair/?attribute_pa_upholstery-fabric=saddle-faux-leather&attribute_pa_base-color=black-base",
+    "imageUrl": "https://www.ergoworkx.com/wp-content/uploads/2021/04/HAG-Capisco-8106-Saddle-Leather-BB.jpg",
+    "originalPrice": 1088,
+    "price": 500,
+    "details": [
+      "HÅG in Balance® (balanced, flowing tilt function)\n    Integrated Seat slider\n    Height-adjustable back\n    Multiple cylinder heights and ranges for traditional or standing desks\n    Optional footring for additional support\n    Self Locking Multi-Surface Casters"
+    ],
+    "state": "available"
+  },
+  {
+    "name": "Whiteboard and noticeboard in one",
+    "url": "https://www.ikea.com/us/en/p/elloven-whiteboard-noticeboard-with-casters-white-70474769/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Workspaces&gad_source=1&gclid=CjwKCAiAsIGrBhAAEiwAEzMlC5ugfs_1ta8Z2IbBSfWODShRkC9P05K-y_vJTMsMuAJMlGUBqTEk6RoCekkQAvD_BwE",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/elloven-whiteboard-noticeboard-with-casters-white__1023835_pe833303_s5.jpg?f=s",
+    "originalPrice": 229.99,
+    "price": 100,
+    "details": [
+      "Whiteboard/noticeboard with casters, white, 27 1/2x70 7/8"
+    ],
+    "state": "available"
+  },
+  {
     "name": "Latptop Stand",
     "url": "https://www.amazon.com/Laptop-Notebook-Stand-Lamicall-Riser/dp/B07CD8LGJ7/ref=sr_1_6?crid=3J9IU5TTG2AFC&keywords=lamicall%2Blaptop%2Bstand&qid=1700884691&sprefix=laptop%2Blamicall%2Caps%2C159&sr=8-6&th=1",
     "imageUrl": "https://m.media-amazon.com/images/I/61aZ8qYgP2L._AC_SX679_.jpg",

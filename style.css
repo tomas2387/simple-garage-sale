@@ -48,6 +48,7 @@ header {
 
 .product-img {
   width: 350px;
+  max-height: 350px;
   object-fit: scale-down;
   border-bottom: 1px solid #d6d6d6;
 }

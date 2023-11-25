@@ -20,6 +20,10 @@ class App extends React.PureComponent {
   }
 }
 
+const calculateDiscount = (price, originalPrice) => {
+    return Math.round(100 - (price / originalPrice) * 100);
+}
+
 const ProductList = (props) => {
   return (
     <div className="container">
@@ -37,7 +41,7 @@ const ProductCard = (props) => {
       style: "currency",
       currency: "USD",
     });
-  const discount = Math.round(100 - (p.price / p.originalPrice) * 100);
+    const discount = calculateDiscount(p.price, p.originalPrice)
 
   return (
     <div className="product">
@@ -110,6 +114,11 @@ const ProductCard = (props) => {
 // Load the data.json file and parse it
 fetch("./data.json")
   .then((response) => response.json())
+    .then((productsData) =>
+        productsData
+            .sort((a, b) =>
+                calculateDiscount(a.price, a.originalPrice) - calculateDiscount(b.price, b.originalPrice))
+    )
   .then((productsData) => {
       ReactDOM.render(
       <App products={productsData} />,

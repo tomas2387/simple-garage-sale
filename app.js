@@ -6,7 +6,7 @@ class App extends React.PureComponent {
     return (
       <div>
         <header>
-          Garage Sale: 2LE Unit 559
+          Tomas Garage Sale: 2LE Unit 559
         </header>
         <h3 className="subtitle">
           Cash and Zelle payment accepted. Only in The woodlands, Two Lakes Edge area.
@@ -14,6 +14,7 @@ class App extends React.PureComponent {
             If you click over the images you can find more info about the product
           </p>
         </h3>
+
         <ProductList products={this.props.products} />
       </div>
     );

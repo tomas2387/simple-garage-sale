@@ -52,7 +52,7 @@ const ProductCard = (props) => {
       <a href={p.url} target="_blank">
         {p.state == "sold" ? (
           <span className="product-span">
-            <div className="sold">VENDIDO</div>
+            <div className="sold">SOLD</div>
             <img
               className="product-img-filter-sold"
               src={p.imageUrl}
@@ -64,7 +64,7 @@ const ProductCard = (props) => {
         )}
         {p.state == "reserved" ? (
           <span className="product-span">
-            <div className="reserved">RESERVADO</div>
+            <div className="reserved">RESERVED</div>
             <img
               className="product-img-filter-reserved"
               src={p.imageUrl}
@@ -76,7 +76,7 @@ const ProductCard = (props) => {
         )}
         {p.state == "notavailable" ? (
           <span className="product-span">
-            <div className="notavailable">NO AVAILABLE</div>
+            <div className="notavailable">NOT AVAILABLE</div>
             <img
               className="product-img-filter-notavailable"
               src={p.imageUrl}

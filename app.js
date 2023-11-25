@@ -13,7 +13,7 @@ class App extends React.PureComponent {
             <br></br>
             Contact me: <a href={tel}>346-497-8554</a>
           <p>
-            If you click over the images you can find more info about the product
+            Click the images to find more info about the product
           </p>
         </h3>
 

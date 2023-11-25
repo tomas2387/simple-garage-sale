@@ -34,16 +34,16 @@ const ProductList = (props) => {
 const ProductCard = (props) => {
   const p = props.product;
   const formatPrice = (p) =>
-    p.toLocaleString("es-CO", {
+    p.toLocaleString("en-US", {
       style: "currency",
-      currency: "COP",
+      currency: "USD",
       maximumFractionDigits: "0",
     });
   const discount = Math.round(100 - (p.price / p.originalPrice) * 100);
 
   const goWhatsapp = () =>
     window.open(
-      `https://api.whatsapp.com/send?phone=+573006815916&text=Hola%2C%20estoy interesado en%20${p.name}`,
+      `https://api.whatsapp.com/send?phone=+13464978554&text=Hi!%2C%20Im%20interested%20in%20${p.name}`,
       "_blank"
     );
 

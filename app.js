@@ -99,7 +99,7 @@ const ProductCard = (props) => {
       <a href={tel} className="box-price">
         <span className="price">{formatPrice(p.price)}</span>
         <div className="box">
-          <img className="icon" src="./whatsapp-icon.png" />
+          <span>📞</span>
           <button className="payment">&nbsp;Contact</button>
         </div>
       </a>

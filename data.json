@@ -1,7 +1,7 @@
 [
   {
     "name": "LG OLED EVO 65 C2",
-    "url": "https://www.viewsonic.com/us/products/monitors/professional-monitors/vp3881a-38-colorprotm-21-9-curved-wqhd-ips-monitor-with-90w-usb-c-rj45-and-srgb.html?gad_source=1",
+    "url": "https://www.conns.com/lg-65-c2-evo-oled-tv-oled65c2pua.html?utm_content=TV+%26+Audio+%26+Electronics+%3E+Televisions+%3E+OLED+TVs&utm_medium=cpc&utm_source=google&utm_campaign=conns_us_ggl_pla_shopping_tvs-sale_pros_na_na_na_na_na_eng&utm_id=20310463134&utm_content=LG&utm_term=PRODUCT_GROUP&device=c&gad_source=1&gclid=CjwKCAiA04arBhAkEiwAuNOsInuHafuTEzG0XMWV4pj6tRFR5RX_HXpNmY01OQbLMna9HTfcStqeXhoCSqwQAvD_BwE&gclsrc=aw.ds",
     "imageUrl": "https://cdn11.bigcommerce.com/s-s8pq4kiarm/images/stencil/1280x1280/products/6026/88620/2022_OLED55C2PUA_1_i2t0ub__50259.1696358621.jpg?c=1",
     "originalPrice": 1699.99,
     "price": 1200,
@@ -15,6 +15,23 @@
       "Brightness Booster",
       "Netflix/YouTube/PrimeVideo/Spotify",
       "4K, 4 HDMI ports, Internet Wifi"
+    ],
+    "state": "available"
+  },
+  {
+    "name": "Viewsonic Curve Monitor 38",
+    "url": "https://www.viewsonic.com/us/products/monitors/professional-monitors/vp3881a-38-colorprotm-21-9-curved-wqhd-ips-monitor-with-90w-usb-c-rj45-and-srgb.html?gad_source=1",
+    "imageUrl": "https://www.viewsonic.com/media/catalog/product/cache/06191322128cc553887330cc5a9fd96a/v/p/vp3881a_front_hires.png",
+    "originalPrice":  1257.99,
+    "price": 600,
+    "details": [
+      "38 Inch ultrawide 21:9 WQHD+ (3840x1600p) 2300R curved monitor with IPS, thin bezels and HDR10",
+      "Ethernet RJ45 and USB-C connectivity for fast data, audio and video transfer, 90W charging over one cable",
+      "Advanced ergonomics (tilt, swivel, and height) for all-day comfort",
+      "Flicker-Free technology and Blue Light Filter for reduced eye fatigue",
+      "100% sRGB, EBU, SMPTE-C, Rec. 709, DCI-P3, and DICOM-SIM color spaces and Delta E<2 accuracy",
+      "Hardware calibrated to ensure that the color displayed perfectly matches the original file",
+      "The VP3881A supports laptops, PCs, Macs and more with USB C, HDMI, USB and DisplayPort inputs",
     ],
     "state": "available"
   },

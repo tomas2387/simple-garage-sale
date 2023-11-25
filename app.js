@@ -1,6 +1,5 @@
 "use strict";
 
-const tel = "tel:+1-346-497-8554";
 class App extends React.PureComponent {
   render() {
     return (
@@ -21,6 +20,14 @@ class App extends React.PureComponent {
       </div>
     );
   }
+}
+
+const sendSmsUrl = (product) => {
+    return `sms://+13464978554?body=I%20am%20interested%20in%20${product.name}%20-%20${product.price}`;
+}
+
+const callUrl = (product) => {
+    return `tel:+13464978554`;
 }
 
 const calculateDiscount = (price, originalPrice) => {
@@ -103,7 +110,7 @@ const ProductCard = (props) => {
           ))}
         </ul>
       </div>
-      <a href={tel} className="box-price">
+      <a href={sendSmsUrl(p)} className="box-price">
         <span className="price">
             <span className="old-price">{formatPrice(p.originalPrice)}</span>
             {formatPrice(p.price)}

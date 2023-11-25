@@ -226,5 +226,7 @@ header {
 .old-price {
   text-decoration: line-through;
   color: #888;
-  display: block;
+  display: inline-block;
+  font-size: 15px;
+  opacity: 0.8;
 }

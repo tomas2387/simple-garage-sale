@@ -118,8 +118,10 @@ fetch("./data.json")
         productsData
             .sort((a, b) =>
                 calculateDiscount(a.price, a.originalPrice) - calculateDiscount(b.price, b.originalPrice))
+            .reverse()
     )
-  .then((productsData) => {
+
+    .then((productsData) => {
       ReactDOM.render(
       <App products={productsData} />,
       document.getElementById("root")

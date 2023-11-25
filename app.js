@@ -10,7 +10,7 @@ class App extends React.PureComponent {
         </header>
         <h3 className="subtitle">
           Cash and Zelle payment accepted. Only in The woodlands, Two Lakes Edge area.
-            <br />
+            <br></br>
             Contact me: <a href={tel}>346-497-8554</a>
           <p>
             If you click over the images you can find more info about the product

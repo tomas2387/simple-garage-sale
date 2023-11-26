@@ -44,6 +44,36 @@ const ProductList = (props) => {
   );
 };
 
+const AvailableLabel = ({state}) => {
+    switch (state) {
+        case "sold":
+            return <div className="sold">SOLD</div>
+        case "reserved":
+            return <div className="reserved">RESERVED</div>
+        case "notavailable":
+            return <div className="notavailable">NOT AVAILABLE</div>
+        case "available":
+            return <div className="available">AVAILABLE</div>
+        default:
+            return <div className="available">AVAILABLE</div>
+    }
+}
+
+const ProductImage = ({state, imageUrl}) => {
+    switch (state) {
+        case "sold":
+            return <img className="product-img-filter-sold" src={imageUrl} loading="lazy"/>
+        case "reserved":
+            return <img className="product-img-filter-reserved" src={imageUrl} loading="lazy"/>
+        case "notavailable":
+            return <img className="product-img-filter-notavailable" src={imageUrl} loading="lazy"/>
+        case "available":
+            return <img className="product-img" src={imageUrl} loading="lazy"/>
+        default:
+            return <img className="product-img" src={imageUrl} loading="lazy"/>
+    }
+}
+
 const ProductCard = (props) => {
   const p = props.product;
   const formatPrice = (p) =>
@@ -56,50 +86,10 @@ const ProductCard = (props) => {
   return (
     <div className="product">
       <a href={p.url} target="_blank">
-        {p.state == "sold" ? (
           <span className="product-span">
-            <div className="sold">SOLD</div>
-            <img
-              className="product-img-filter-sold"
-              src={p.imageUrl}
-              loading="lazy"
-            />
+            <AvailableLabel state={p.state}/>
+            <ProductImage state={p.state} imageUrl={p.imageUrl} />
           </span>
-        ) : (
-          ""
-        )}
-        {p.state == "reserved" ? (
-          <span className="product-span">
-            <div className="reserved">RESERVED</div>
-            <img
-              className="product-img-filter-reserved"
-              src={p.imageUrl}
-              loading="lazy"
-            />
-          </span>
-        ) : (
-          ""
-        )}
-        {p.state == "notavailable" ? (
-          <span className="product-span">
-            <div className="notavailable">NOT AVAILABLE</div>
-            <img
-              className="product-img-filter-notavailable"
-              src={p.imageUrl}
-              loading="lazy"
-            />
-          </span>
-        ) : (
-          ""
-        )}
-        {p.state == "available" ? (
-          <span className="product-span">
-            <div className="available">AVAILABLE</div>
-            <img className="product-img" src={p.imageUrl} loading="lazy" />
-          </span>
-        ) : (
-          ""
-        )}
       </a>
       <div className="product-details">
         <h3>{p.name}</h3>

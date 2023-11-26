@@ -7,14 +7,33 @@
     "price": 1999,
     "details": [
       "Bed",
-      "Headboard",
-      "Mattress for free",
-      "Rize Adjustable Base + Massage",
-      "Two Nightstands",
+      "Headboard: https://www.starfurniture.com/crosby-queen-panel-bed-KT%3A45252.html",
+      "Mattress London: https://www.texasmattressmakers.com/london/",
+      "Rize Adjustable Base: https://www.texasmattressmakers.com/remedy-ii-adjustable-bed/",
+      "Nightstand with two drawers: https://www.starfurniture.com/crosby-two-drawer-nightstand-ST%3A722308.html",
+      "Nightstand with one drawer: https://www.starfurniture.com/crosby-one-drawer-nightstand-ST%3A722307.html",
       "Two Lamps"
     ],
     "state": "available"
-  }, {
+  },
+  {
+    "name": "FULL LivingRoom Set",
+    "url": "https://tomas2387.github.io/simple-garage-sale/img/bedroom-set.png",
+    "imageUrl": "img/bedroom-set.png",
+    "originalPrice": 4200,
+    "price": 1999,
+    "details": [
+      "Bed",
+      "Headboard: https://www.starfurniture.com/crosby-queen-panel-bed-KT%3A45252.html",
+      "Mattress London: https://www.texasmattressmakers.com/london/",
+      "Rize Adjustable Base: https://www.texasmattressmakers.com/remedy-ii-adjustable-bed/",
+      "Nightstand with two drawers: https://www.starfurniture.com/crosby-two-drawer-nightstand-ST%3A722308.html",
+      "Nightstand with one drawer: https://www.starfurniture.com/crosby-one-drawer-nightstand-ST%3A722307.html",
+      "Two Lamps"
+    ],
+    "state": "available"
+  },
+  {
     "name": "Convertible Sofa",
     "url": "https://www.samsclub.com/p/morgan-sofa-spring-2018/prod22101981?xid=plp_product_3",
     "imageUrl": "img/convertible-sofa.png",

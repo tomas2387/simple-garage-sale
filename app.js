@@ -72,11 +72,11 @@ const ProductDetailItemList = ({detail}) => {
 const ProductImage = ({state, imageUrl}) => {
     switch (state) {
         case "sold":
-            return <img className="product-img-filter-sold" src={imageUrl} loading="lazy"/>
+            return <img className="product-img product-img-filter-sold" src={imageUrl} loading="lazy"/>
         case "reserved":
-            return <img className="product-img-filter-reserved" src={imageUrl} loading="lazy"/>
+            return <img className="product-img product-img-filter-reserved" src={imageUrl} loading="lazy"/>
         case "notavailable":
-            return <img className="product-img-filter-notavailable" src={imageUrl} loading="lazy"/>
+            return <img className="product-img product-img-filter-notavailable" src={imageUrl} loading="lazy"/>
         case "available":
             return <img className="product-img" src={imageUrl} loading="lazy"/>
         default:

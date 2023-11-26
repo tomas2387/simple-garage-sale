@@ -84,6 +84,25 @@ const ProductImage = ({state, imageUrl}) => {
     }
 }
 
+const MoreInfoItemList = ({url}) => {
+    if (!url) {
+        return null;
+    }
+    const extension = url.split('.').pop();
+    const isImage = ["jpg", "jpeg", "png", "gif"].includes(extension);
+    const isAmazonLink = /amazon/.test(url);
+
+    if (isImage) {
+        return <li><a href={url} target={"_blank"}>See the big picture here</a></li>;
+    }
+
+    if (isAmazonLink) {
+        return <li><a href={url} target={"_blank"}>Amazon Link</a></li>;
+    }
+
+    return <li><a href={url} target={"_blank"}>Product info here</a></li>;
+}
+
 const ProductCard = (props) => {
   const p = props.product;
   const formatPrice = (p) =>
@@ -95,29 +114,32 @@ const ProductCard = (props) => {
 
   return (
     <div className="product">
-      <a href={p.url} target="_blank">
+        <a href={p.url} target="_blank">
           <span className="product-span">
             <AvailableLabel state={p.state}/>
-            <ProductImage state={p.state} imageUrl={p.imageUrl} />
+            <ProductImage state={p.state} imageUrl={p.imageUrl}/>
           </span>
-      </a>
-      <div className="product-details">
-        <h3>{p.name}</h3>
-        {discount > 0 && <span className="discount">-{discount}%</span>}
-        <ul>
-          {p.details.map((detail) => <ProductDetailItemList detail={detail}/>)}
-        </ul>
-      </div>
-      <a href={sendSmsUrl(p)} className="box-price">
+        </a>
+        <div className="product-details">
+            <h3>{p.name}</h3>
+            {discount > 0 && <span className="discount">-{discount}%</span>}
+            <ul>
+                {p.details.map((detail) => <ProductDetailItemList detail={detail}/>)}
+                {p.buyer && p.state === "sold" && <li>Buyer: {p.buyer}</li>}
+                {p.buyer && p.state === "reserved" && <li>Reserved for: {p.buyer}</li>}
+                <MoreInfoItemList url={p.url} />
+            </ul>
+        </div>
+        <a href={sendSmsUrl(p)} className="box-price">
         <span className="price">
             <span className="old-price">{formatPrice(p.originalPrice)}</span>
             <span className={"new-price"}>{formatPrice(p.price)}</span>
         </span>
-        <div className="box">
-          <span>📞</span>
-          <button className="payment">&nbsp;Contact</button>
-        </div>
-      </a>
+            <div className="box">
+                <span>📞</span>
+                <button className="payment">&nbsp;Contact</button>
+            </div>
+        </a>
     </div>
   );
 };

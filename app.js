@@ -59,6 +59,16 @@ const AvailableLabel = ({state}) => {
     }
 }
 
+const ProductDetailItemList = ({detail}) => {
+    if (typeof detail === "string") {
+        return <li>{detail}</li>
+    }
+
+    if (typeof detail === "object") {
+        return <li>{detail.text}. <a href={detail.link}>More info</a></li>
+    }
+}
+
 const ProductImage = ({state, imageUrl}) => {
     switch (state) {
         case "sold":

@@ -6,13 +6,12 @@
     "originalPrice": 4200,
     "price": 1999,
     "details": [
-      "Bed",
       "Headboard: https://www.starfurniture.com/crosby-queen-panel-bed-KT%3A45252.html",
       "Mattress London: https://www.texasmattressmakers.com/london/",
       "Rize Adjustable Base: https://www.texasmattressmakers.com/remedy-ii-adjustable-bed/",
       "Nightstand with two drawers: https://www.starfurniture.com/crosby-two-drawer-nightstand-ST%3A722308.html",
       "Nightstand with one drawer: https://www.starfurniture.com/crosby-one-drawer-nightstand-ST%3A722307.html",
-      "Two Lamps"
+      "Two Designer Lamps"
     ],
     "state": "available"
   },
@@ -23,13 +22,27 @@
     "originalPrice": 4200,
     "price": 1999,
     "details": [
-      "Bed",
-      "Headboard: https://www.starfurniture.com/crosby-queen-panel-bed-KT%3A45252.html",
-      "Mattress London: https://www.texasmattressmakers.com/london/",
-      "Rize Adjustable Base: https://www.texasmattressmakers.com/remedy-ii-adjustable-bed/",
-      "Nightstand with two drawers: https://www.starfurniture.com/crosby-two-drawer-nightstand-ST%3A722308.html",
-      "Nightstand with one drawer: https://www.starfurniture.com/crosby-one-drawer-nightstand-ST%3A722307.html",
-      "Two Lamps"
+      {
+        "text": "Headboard",
+        "link": "https://www.starfurniture.com/crosby-queen-panel-bed-KT%3A45252.html"
+      },
+      {
+        "text": "Mattress London",
+        "link": "https://www.texasmattressmakers.com/london/"
+      },
+      {
+        "text": "Rize Adjustable Base",
+        "link": "https://www.texasmattressmakers.com/remedy-ii-adjustable-bed/"
+      },
+      {
+        "text": "Nightstand with two drawers",
+        "link": "https://www.starfurniture.com/crosby-two-drawer-nightstand-ST%3A722308.html"
+      },
+      {
+        "text": "Nightstand with one drawer",
+        "link": "https://www.starfurniture.com/crosby-one-drawer-nightstand-ST%3A722307.html"
+      },
+      "Two Designer Lamps"
     ],
     "state": "available"
   },

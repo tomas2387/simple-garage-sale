@@ -1,5 +1,13 @@
 "use strict";
 
+const sendSmsUrl = (product) => {
+    return `sms://+13464978554?body=I%20am%20interested%20in%20${product.name}%20-%20${product.price}`;
+}
+
+const callUrl = (product) => {
+    return `tel:+13464978554`;
+}
+
 class App extends React.PureComponent {
   render() {
     return (
@@ -10,7 +18,7 @@ class App extends React.PureComponent {
         <h3 className="subtitle">
           Cash and Zelle payment accepted. Only in The woodlands, Two Lakes Edge area.
             <br></br>
-            Contact me: <a href={tel}>346-497-8554</a>
+            Contact me: <a href={callUrl()}>346-497-8554</a>
           <p>
             Click the images to find more info about the product
           </p>
@@ -20,14 +28,6 @@ class App extends React.PureComponent {
       </div>
     );
   }
-}
-
-const sendSmsUrl = (product) => {
-    return `sms://+13464978554?body=I%20am%20interested%20in%20${product.name}%20-%20${product.price}`;
-}
-
-const callUrl = (product) => {
-    return `tel:+13464978554`;
 }
 
 const calculateDiscount = (price, originalPrice) => {

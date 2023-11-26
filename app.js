@@ -65,7 +65,7 @@ const ProductDetailItemList = ({detail}) => {
     }
 
     if (typeof detail === "object") {
-        return <li>{detail.text}. <a href={detail.link}>More info</a></li>
+        return <li>{detail.text}. <a href={detail.link} target={"_blank"}>More info</a></li>
     }
 }
 
@@ -105,9 +105,7 @@ const ProductCard = (props) => {
         <h3>{p.name}</h3>
         {discount > 0 && <span className="discount">-{discount}%</span>}
         <ul>
-          {p.details.map((detail) => (
-            <li>{detail}</li>
-          ))}
+          {p.details.map((detail) => <ProductDetailItemList detail={detail}/>)}
         </ul>
       </div>
       <a href={sendSmsUrl(p)} className="box-price">

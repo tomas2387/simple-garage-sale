@@ -125,8 +125,8 @@ const ProductCard = (props) => {
             {discount > 0 && <span className="discount">-{discount}%</span>}
             <ul>
                 {p.details.map((detail) => <ProductDetailItemList detail={detail}/>)}
-                {p.buyer && p.state === "sold" && <li>Buyer: {p.buyer}</li>}
-                {p.buyer && p.state === "reserved" && <li>Reserved for: {p.buyer}</li>}
+                {p.buyer && p.state === "sold" && <li className={"sold-item-list-buyer-name"}>Buyer: {p.buyer}</li>}
+                {p.buyer && p.state === "reserved" && <li className={"reserved-item-list-reserve-name"}>Reserved for: {p.buyer}</li>}
                 <MoreInfoItemList url={p.url} />
             </ul>
         </div>

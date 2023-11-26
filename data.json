@@ -64,7 +64,8 @@
       "ZUO Coffee table",
       "17.7\" H x 34.4\" W x 34.4\" D",
       "Weight: 360 lbs"
-    ]
+    ],
+    "state": "available"
   },
   {
     "name": "Convertible Sofa",
@@ -94,7 +95,8 @@
       "Gold finish with gray faux marble",
       "Size: 52\" W x 10\" D x 29\" H"
     ],
-    "state": "reserved"
+    "state": "reserved",
+    "buyer": "M. P."
   },
   {
     "name": "Sauder Cube Storage Bookcase",
@@ -122,7 +124,8 @@
         "Large Tabletop & Storage Space",
       "RGB LED Lights"
     ],
-    "state": "reserved"
+    "state": "reserved",
+    "buyer": "O."
   },
   {
     "name": "Rize Adjustable Base + Massage",
@@ -160,7 +163,8 @@
       "Shade diameter: 6 \"",
       "Cord length: 110 1/4 \""
     ],
-    "state": "reserved"
+    "state": "reserved",
+    "buyer": "M. P."
   },
   {
     "name": "Whiteboard and noticeboard in one",
@@ -171,7 +175,8 @@
     "details": [
       "Whiteboard/noticeboard with casters, white, 27 1/2x70 7/8"
     ],
-    "state": "reserved"
+    "state": "reserved",
+    "buyer": "M. P."
   },
   {
     "name": "Laptop Stand",
@@ -191,6 +196,7 @@
     "originalPrice": 84,
     "price": 40,
     "details": [
+      "Available units: 2",
       "Color: White",
       "Brand: LEVOIT",
       "Product Dimensions: 8.7'D x 8.7'W x 14.2'H",
@@ -198,7 +204,8 @@
       "Specification Met: Energy Star Certified, ETL Certified, CARB Certified, EPA Certified",
       "Can purify air of a 1,095 ft² space once in one hour"
     ],
-    "state": "reserved"
+    "state": "reserved",
+    "buyer": "M. P. & O."
   },
   {
     "name": "LG OLED EVO 65 C2",

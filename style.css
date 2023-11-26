@@ -85,6 +85,17 @@ header {
   margin-bottom: 5px;
 }
 
+.sold-item-list-buyer-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.reserved-item-list-reserve-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
 .discount {
   height: 64px;
   width: 64px;

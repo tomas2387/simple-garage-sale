@@ -237,4 +237,6 @@ header {
 .new-price {
   color: #fff;
   font-weight: bold;
+  left: -10px;
+  top: 9px;
 }

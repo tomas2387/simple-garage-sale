@@ -34,9 +34,24 @@
     "name": "FULL LivingRoom Set",
     "url": "https://tomas2387.github.io/simple-garage-sale/img/bedroom-set.png",
     "imageUrl": "",
-    "originalPrice": 4200,
-    "price": 1999,
-"details": [],
+    "originalPrice": 2259,
+    "price": 999,
+    "details": [
+      {
+        "text": "ZUO Coffee table. Original price: $520.00",
+        "link": "https://travisdavid.com/zuo-modern-verona-coffee-table/"
+      },
+      {
+        "text": "ZUO End table. Original price: $250.00",
+        "link": "https://travisdavid.com/zuo-modern-verona-side-table/"
+      },
+      {
+        "text": "ZUO End table. Original price: $250.00",
+        "link": "https://travisdavid.com/zuo-modern-verona-side-table/"
+      },
+      "SOFA Gia Sofa - Sugarshack Vanilla. Original price: $1099.99",
+      "Ivory Rug 8\"x11\""
+    ],
     "state": "available"
   },
   {
@@ -67,7 +82,7 @@
       "Gold finish with gray faux marble",
       "Size: 52\" W x 10\" D x 29\" H"
     ],
-    "state": "available"
+    "state": "reserved"
   },
   {
     "name": "Sauder Cube Storage Bookcase",
@@ -133,7 +148,7 @@
       "Shade diameter: 6 \"",
       "Cord length: 110 1/4 \""
     ],
-    "state": "available"
+    "state": "reserved"
   },
   {
     "name": "Whiteboard and noticeboard in one",

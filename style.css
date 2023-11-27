@@ -111,18 +111,6 @@ header {
   right: 10px;
 }
 
-.price {
-  min-width: 180px;
-  bottom: 0;
-  color: #fff;
-  background-color: #ffcc00;
-  text-align: left;
-  padding-left: 18px;
-  font-size: 24px;
-  width: 100%;
-  cursor: pointer;
-}
-
 .available {
   position: relative;
   /* top: 200px; */
@@ -224,21 +212,28 @@ header {
   position: relative;
 }
 
+.price {
+  min-width: 180px;
+  bottom: 0;
+  color: #fff;
+  background-color: #ffcc00;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 24px;
+  width: 100%;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
 .old-price {
   text-decoration: line-through;
   color: #888;
-  top: 4px;
   display: inline-block;
   font-size: 15px;
   opacity: 0.8;
   vertical-align: top;
-  position: relative;
 }
 
 .new-price {
   color: #fff;
-  position: relative;
-  left: -20%;
-  top: 20px;
-  min-width: 100px;
 }

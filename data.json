@@ -7,23 +7,53 @@
     "price": 1999,
     "details": [
       {
-        "text": "Crosby Queen Panel Bed. Original price: $1,299.99",
+        "text": "Crosby Queen Panel Bed. Modern panel bed with lighting. Original price: $1,299.99",
         "link": "https://www.starfurniture.com/crosby-queen-panel-bed-KT%3A45252.html"
       },
       {
-        "text": "Mattress London. Original price: $1,279.95",
+        "text": "Mattress London. Versatile, comfortable mattress with memory foam. Original price: $1,279.95",
         "link": "https://www.texasmattressmakers.com/london/"
       },
       {
-        "text": "Rize Adjustable Base. Original price: $1,099.00",
+        "text": "Rize Adjustable Base. Adjustable bed providing lumbar support, charging outlets. Original price: $1,099.00",
         "link": "https://www.texasmattressmakers.com/remedy-ii-adjustable-bed/"
       },
       {
-        "text": "Nightstand with two drawers. Original price: $599.99",
+        "text": "Nightstand with two drawers. Modern two-drawer nightstand with LED, USB. Original price: $599.99",
         "link": "https://www.starfurniture.com/crosby-two-drawer-nightstand-ST%3A722308.html"
       },
       {
-        "text": "Nightstand with one drawer. Original price: $479.99",
+        "text": "Nightstand with one drawer. Modern two-drawer nightstand with LED, USB. Original price: $479.99",
+        "link": "https://www.starfurniture.com/crosby-one-drawer-nightstand-ST%3A722307.html"
+      },
+      {
+        "text": "Pax 2 Light 30-1/2\" Tall Buffet Table Lamp x2 (one for each nightstand). Original price: $265.00",
+        "link": "https://www.lightingdirect.com/lite-source-ls-23165-pax-2-light-30-1-2-tall-buffet-table-lamp/p3466201"
+      }
+    ],
+    "state": "available"
+  },
+  {
+    "name": "Bedroom Set without Bed Base",
+    "url": "https://tomas2387.github.io/simple-garage-sale/img/bedroom-set.png",
+    "imageUrl": "img/bedroom-set.png",
+    "originalPrice": 4189.92,
+    "price": 1499,
+    "details": [
+      {
+        "text": "Crosby Queen Panel Bed. Modern panel bed with lighting. Original price: $1,299.99",
+        "link": "https://www.starfurniture.com/crosby-queen-panel-bed-KT%3A45252.html"
+      },
+      {
+        "text": "Mattress London. Versatile, comfortable mattress with memory foam. Original price: $1,279.95",
+        "link": "https://www.texasmattressmakers.com/london/"
+      },
+      {
+        "text": "Nightstand with two drawers. Modern two-drawer nightstand with LED, USB. Original price: $599.99",
+        "link": "https://www.starfurniture.com/crosby-two-drawer-nightstand-ST%3A722308.html"
+      },
+      {
+        "text": "Nightstand with one drawer. Modern two-drawer nightstand with LED, USB. Original price: $479.99",
         "link": "https://www.starfurniture.com/crosby-one-drawer-nightstand-ST%3A722307.html"
       },
       {

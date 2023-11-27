@@ -63,7 +63,8 @@
     "details": [
       "ZUO Coffee table",
       "17.7\" H x 34.4\" W x 34.4\" D",
-      "Weight: 360 lbs"
+      "Weight: 360 lbs",
+      "Condition: Like New"
     ],
     "state": "available"
   },
@@ -77,7 +78,8 @@
       "Available Units: 2",
       "ZUO Coffee table",
       "17.7\" H x 34.4\" W x 34.4\" D",
-      "Weight: 360 lbs"
+      "Weight: 360 lbs",
+      "Condition: Like New"
     ],
     "state": "available"
   },
@@ -89,7 +91,8 @@
     "price": 400,
     "details": [
         "Gia Sofa Chair",
-        "Sugarshack Vanilla"
+      "Sugarshack Vanilla",
+      "Condition: Used"
     ],
     "state": "available"
   },
@@ -101,7 +104,8 @@
     "price": 200,
     "details": [
         "Gia Sofa Chair",
-        "Sugarshack Vanilla"
+      "Sugarshack Vanilla",
+      "Condition: Used"
     ],
     "state": "available"
   },
@@ -113,7 +117,8 @@
     "price": 50,
     "details": [
         "Slim Yuletide Pine Christmas Tree",
-        "7.5' tall"
+      "7.5' tall",
+      "Condition: Like New. In its original box"
     ],
     "state": "available"
   },
@@ -130,7 +135,8 @@
       "Durable high-performance bonded leather fabric",
       "Includes two 120V power outlets and 2 USB ports for charging personal electronics",
       "Chrome look metal legs",
-      "Pocket coil cushions"
+      "Pocket coil cushions",
+      "Condition: Used"
     ],
     "state": "available"
   },
@@ -143,7 +149,8 @@
     "details": [
       "Space friendly bedroom or sofa table",
       "Gold finish with gray faux marble",
-      "Size: 52\" W x 10\" D x 29\" H"
+      "Size: 52\" W x 10\" D x 29\" H",
+      "Condition: Like New"
     ],
     "state": "reserved",
     "buyer": "M."
@@ -158,7 +165,8 @@
       "44”H 6-Cube Organizer Storage Bookcase",
       "Engineered wood for durability",
       "6 cubes for ample storage space",
-      "Comes with 1 storage bin"
+      "Comes with 1 storage bin",
+      "Condition: Like New"
     ],
     "state": "available"
   },
@@ -172,7 +180,8 @@
       "3-In-1 Large TV Stand",
         "Accommodates most flat panel TVs up to 70\" and 135 lbs",
         "Large Tabletop & Storage Space",
-      "RGB LED Lights"
+      "RGB LED Lights",
+      "Condition: Like New"
     ],
     "state": "sold",
     "buyer": "O."
@@ -185,6 +194,7 @@
     "price": 700,
     "details": [
       "With edge-to-edge lumbar support, the Remedy II Adjustable Bed allows you to save your favorite positions for enhanced relaxation. The Remedy II has a separate section that gives support to your lower back just where you need it to relieve pain. With dual USB outlets, you can keep your devices charged at all times for work or leisure!"
+      "Condition: Like New"
     ],
     "state": "available"
   },
@@ -196,6 +206,7 @@
     "price": 500,
     "details": [
       "HÅG in Balance® (balanced, flowing tilt function)\n    Integrated Seat slider\n    Height-adjustable back\n    Multiple cylinder heights and ranges for traditional or standing desks\n    Optional footring for additional support\n    Self Locking Multi-Surface Casters"
+      "Condition: Used"
     ],
     "state": "available"
   },
@@ -211,7 +222,8 @@
       "Height: 69 \"",
       "Base diameter: 12 \"",
       "Shade diameter: 6 \"",
-      "Cord length: 110 1/4 \""
+      "Cord length: 110 1/4 \"",
+      "Condition: Like New"
     ],
     "state": "reserved",
     "buyer": "M."
@@ -223,7 +235,8 @@
     "originalPrice": 229.99,
     "price": 100,
     "details": [
-      "Whiteboard/noticeboard with casters, white, 27 1/2x70 7/8"
+      "Whiteboard/noticeboard with casters, white, 27 1/2x70 7/8",
+      "Condition: Like New"
     ],
     "state": "reserved",
     "buyer": "M."
@@ -235,7 +248,8 @@
     "originalPrice": 26,
     "price": 10,
     "details": [
-      "Silver rotatable laptop stand holder"
+      "Silver rotatable laptop stand holder",
+      "Condition: Like New"
     ],
     "state": "available"
   },
@@ -252,7 +266,8 @@
       "Product Dimensions: 8.7'D x 8.7'W x 14.2'H",
       "Floor Area: 1095 Square Feet",
       "Specification Met: Energy Star Certified, ETL Certified, CARB Certified, EPA Certified",
-      "Can purify air of a 1,095 ft² space once in one hour"
+      "Can purify air of a 1,095 ft² space once in one hour",
+      "Condition: Like New"
     ],
     "state": "sold",
     "buyer": "M. & J."
@@ -273,7 +288,24 @@
       "Ultimate Gaming (G‑SYNC compatible, FreeSync Premium, VRR. 4K @ 120Hz)",
       "Brightness Booster",
       "Netflix/YouTube/PrimeVideo/Spotify",
-      "4K, 4 HDMI ports, Internet Wifi"
+      "4K, 4 HDMI ports, Internet Wifi",
+      "Condition: New. Barely used. In its original box"
+    ],
+    "state": "available"
+  },
+  {
+    "name": "Arlette Table Lamp",
+    "url": "https://www.stylecraftonline.com/categories/165372/all-lighting/products/l319066/moon-glow-table-lamp-%7C-32in-ht_dot_-soft-glow-night-light-%7C-milk-white-opaque-glass-glode-with-metal-bas",
+    "imageUrl": "https://images.junipercdn.com/128/l319066_lg.jpg?%20width=700&height=700&canvas=700,700&fit=bounds",
+    "originalPrice": 350,
+    "price": 100,
+    "details": [
+      "Arlette Table Lamp",
+      "Soft Glow Night Light | Milk White Opaque Glass Glode with Metal Base",
+      "Height: 33.0",
+      "Width: 17.0",
+      "Depth: 17.0",
+      "Condition: New. Not used. In its original box"
     ],
     "state": "available"
   },
@@ -290,7 +322,8 @@
       "Flicker-Free technology and Blue Light Filter for reduced eye fatigue",
       "100% sRGB, EBU, SMPTE-C, Rec. 709, DCI-P3, and DICOM-SIM color spaces and Delta E<2 accuracy",
       "Hardware calibrated to ensure that the color displayed perfectly matches the original file",
-      "The VP3881A supports laptops, PCs, Macs and more with USB C, HDMI, USB and DisplayPort inputs"
+      "The VP3881A supports laptops, PCs, Macs and more with USB C, HDMI, USB and DisplayPort inputs",
+      "Condition: Like New"
     ],
     "state": "available"
   },
@@ -304,7 +337,8 @@
       "White stained oak veneer/white",
       "Length: 51 1/8",
       "Width: 27 1/2",
-      "Height: 29 1/2"
+      "Height: 29 1/2",
+      "Condition: Like New"
     ],
     "state": "available"
   }

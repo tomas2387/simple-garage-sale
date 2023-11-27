@@ -4,38 +4,48 @@
     "url": "https://tomas2387.github.io/simple-garage-sale/img/bedroom-set.png",
     "imageUrl": "img/bedroom-set.png",
 
-    "originalPrice": 4200,
+    "originalPrice": 5288.92,
     "price": 1999,
     "details": [
       {
-        "text": "Headboard",
+        "text": "Crosby Queen Panel Bed. Original price: $1,299.99",
         "link": "https://www.starfurniture.com/crosby-queen-panel-bed-KT%3A45252.html"
       },
       {
-        "text": "Mattress London",
+        "text": "Mattress London. Original price: $1,279.95",
         "link": "https://www.texasmattressmakers.com/london/"
       },
       {
-        "text": "Rize Adjustable Base",
+        "text": "Rize Adjustable Base. Original price: $1,099.00",
         "link": "https://www.texasmattressmakers.com/remedy-ii-adjustable-bed/"
       },
       {
-        "text": "Nightstand with two drawers",
+        "text": "Nightstand with two drawers. Original price: $599.99",
         "link": "https://www.starfurniture.com/crosby-two-drawer-nightstand-ST%3A722308.html"
       },
       {
-        "text": "Nightstand with one drawer",
+        "text": "Nightstand with one drawer. Original price: $479.99",
         "link": "https://www.starfurniture.com/crosby-one-drawer-nightstand-ST%3A722307.html"
       },
-      "Two Rolf Designer Lamps"
+      {
+        "text": "Pax 2 Light 30-1/2\" Tall Buffet Table Lamp x2 (one for each nightstand). Original price: $265.00",
+        "link": "https://www.lightingdirect.com/lite-source-ls-23165-pax-2-light-30-1-2-tall-buffet-table-lamp/p3466201"
+      }
     ],
     "state": "available"
   },
   {
     "name": "LivingRoom Tables Set",
-    "url": "img/tables-set.jpg",
-    "imageUrl": "img/tables-set.jpg",
-
+    "url": [
+      "https://travisdavid.com/zuo-modern-verona-coffee-table/",
+        "https://travisdavid.com/zuo-modern-verona-side-table/",
+      "img/tables-set.jpg"
+    ],
+    "imageUrl": [
+      "https://cdn11.bigcommerce.com/s-97fac/images/stencil/1280x1280/products/135709/213996/101735-2__41341.1668591060.jpg?c=2",
+      "https://cdn11.bigcommerce.com/s-97fac/images/stencil/1280x1280/products/135708/213995/101734-2__14914.1668591059.jpg?c=2",
+      "img/tables-set.jpg"
+    ],
     "originalPrice": 1530,
     "price": 750,
     "details": [
@@ -44,11 +54,7 @@
         "link": "https://travisdavid.com/zuo-modern-verona-coffee-table/"
       },
       {
-        "text": "ZUO End table. Original price: $375.00",
-        "link": "https://travisdavid.com/zuo-modern-verona-side-table/"
-      },
-      {
-        "text": "ZUO End table. Original price: $375.00",
+        "text": "2x ZUO End table. Original price: $375.00",
         "link": "https://travisdavid.com/zuo-modern-verona-side-table/"
       }
     ],

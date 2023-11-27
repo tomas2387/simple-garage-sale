@@ -132,10 +132,10 @@ const MoreInfoItemList = ({url, extraInfo}) => {
     }
 
     if (isAmazonLink) {
-        return <li><a href={url} target={"_blank"}>Amazon Link</a></li>;
+        return <li><a href={url} target={"_blank"}>Amazon Link {extraInfo? `(${extraInfo})` : null}</a></li>;
     }
 
-    return <li><a href={url} target={"_blank"}>Product info here</a></li>;
+    return <li><a href={url} target={"_blank"}>Product info here {extraInfo? `(${extraInfo})` : null}</a></li>;
 }
 
 const ProductCard = (props) => {
@@ -185,7 +185,6 @@ fetch("./data.json")
     .then((productsData) =>
         productsData
             .sort((a, b) => {
-                console.log(a.position, b.position)
                 if (a.position < b.position || a.position && !b.position) {
                     return 1;
                 }

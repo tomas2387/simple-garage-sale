@@ -49,7 +49,7 @@
         "text": "ZUO End table. Original price: $250.00",
         "link": "https://travisdavid.com/zuo-modern-verona-side-table/"
       },
-      "SOFA Gia Sofa - Sugarshack Vanilla. Original price: $1099.99",
+      "Gia Sofa - Sugarshack Vanilla. Original price: $1099.99",
       "Ivory Rug 8\"x11\""
     ],
     "state": "available"
@@ -74,9 +74,46 @@
     "originalPrice": 375,
     "price": 250,
     "details": [
+      "Available Units: 2",
       "ZUO Coffee table",
       "17.7\" H x 34.4\" W x 34.4\" D",
       "Weight: 360 lbs"
+    ],
+    "state": "available"
+  },
+  {
+    "name": "Gia Sofa Chair",
+    "url": "img/gia-sofa.png",
+    "imageUrl": "img/gia-sofa.png",
+    "originalPrice": 849.99,
+    "price": 400,
+    "details": [
+        "Gia Sofa Chair",
+        "Sugarshack Vanilla"
+    ],
+    "state": "available"
+  },
+  {
+    "name": "Gia Ottoman",
+    "url": "img/gia-ottoman.png",
+    "imageUrl": "img/gia-ottoman.png",
+    "originalPrice": 469.99,
+    "price": 200,
+    "details": [
+        "Gia Sofa Chair",
+        "Sugarshack Vanilla"
+    ],
+    "state": "available"
+  },
+  {
+    "name": "Christmas Tree",
+    "url": "https://www.hobbylobby.com/Christmas/Artificial-Christmas-Trees/7-75-Feet/Slim-Yuletide-Pine-Christmas-Tree--75/p/138582?srsltid=AfmBOop5t8ZrUXTogJazMXZZdxN3RRXvsM7Yijpcvm3HUt4Vz1K9QFzSFW0",
+    "imageUrl": "https://cdn.media.amplience.net/i/hobbylobby/911289-138582-a?fmt=webp&w=736&h=736&sm=mc",
+    "originalPrice": 119.99,
+    "price": 50,
+    "details": [
+        "Slim Yuletide Pine Christmas Tree",
+        "7.5' tall"
     ],
     "state": "available"
   },
@@ -217,7 +254,7 @@
       "Specification Met: Energy Star Certified, ETL Certified, CARB Certified, EPA Certified",
       "Can purify air of a 1,095 ft² space once in one hour"
     ],
-    "state": "reserved",
+    "state": "sold",
     "buyer": "M. & J."
   },
   {

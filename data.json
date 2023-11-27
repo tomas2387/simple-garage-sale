@@ -3,7 +3,6 @@
     "name": "FULL Bedroom Set",
     "url": "https://tomas2387.github.io/simple-garage-sale/img/bedroom-set.png",
     "imageUrl": "img/bedroom-set.png",
-
     "originalPrice": 5288.92,
     "price": 1999,
     "details": [
@@ -38,7 +37,7 @@
     "name": "LivingRoom Tables Set",
     "url": [
       "https://travisdavid.com/zuo-modern-verona-coffee-table/",
-        "https://travisdavid.com/zuo-modern-verona-side-table/",
+      "https://travisdavid.com/zuo-modern-verona-side-table/",
       "img/tables-set.jpg"
     ],
     "imageUrl": [
@@ -50,11 +49,11 @@
     "price": 750,
     "details": [
       {
-        "text": "ZUO Coffee table. Original price: $780.00",
+        "text": "ZUO Coffee table. Finest black marble with gold metal. Original price: $780.00",
         "link": "https://travisdavid.com/zuo-modern-verona-coffee-table/"
       },
       {
-        "text": "2x ZUO End table. Original price: $375.00",
+        "text": "2x ZUO End table. Finest black marble with gold metal. Original price: $375.00 each",
         "link": "https://travisdavid.com/zuo-modern-verona-side-table/"
       }
     ],
@@ -72,7 +71,7 @@
       "Product Dimensions: 14.5\"D x 18.5\"W x 11\"H",
       "1800 Watt countertop oven",
       "Reduces cooking time by up to 30%",
-      "Condition: Like New"
+      "Condition: +1yr. Like New!"
     ],
     "state": "available"
   },
@@ -87,7 +86,7 @@
       "Perfect for an espresso, a Lungo, an Americano, or even tea with the hot water option.",
       "The whole set comes with 40 capsules",
       "Espresso, Lungo, Americano & Americano XL",
-      "Condition: Used"
+      "Condition: +1yr. Used"
     ],
     "state": "available"
   },
@@ -100,7 +99,7 @@
     "details": [
       "Herman Miller Humanspine Executer Chair",
       "Ergonomic Office Chair with Reclining Backrest",
-      "Condition: Like New"
+      "Condition: +1yr. Like New!"
     ],
     "state": "available"
   },
@@ -117,13 +116,12 @@
       "img/gia-ottoman.png"
     ],
     "originalPrice": 2419.97,
-
     "price": 999,
     "details": [
       "Gia Sofa - Sugarshack Vanilla. Original price: $1099.99",
       "Gia Sofa Chair - Sugarshack Vanilla. Original price: $849.99",
       "Gia Ottoman - Sugarshack Vanilla. Original price: $469.99",
-      "Condition: Like New"
+      "Condition: Like New!"
     ],
     "state": "available"
   },
@@ -137,7 +135,7 @@
       "Slim Yuletide Pine Christmas Tree",
       "Comes with decorations and lights",
       "7.5' tall",
-      "Condition: Like New. In its original box"
+      "Condition: 1yr old. Like New!. In its original box"
     ],
     "state": "available"
   },
@@ -155,7 +153,7 @@
       "Includes two 120V power outlets and 2 USB ports for charging personal electronics",
       "Chrome look metal legs",
       "Pocket coil cushions",
-      "Condition: Used"
+      "Condition: +1 yr! Almost New!"
     ],
     "state": "available"
   },
@@ -274,7 +272,6 @@
     "originalPrice": 1699.99,
     "price": 1200,
     "details": [
-      "ALMOST NEW!",
       "Comes with original box, warranty and remote control",
       "OLED Evo",
       "Home Cinema (Dolby Vision / Dolby Atmos / Filmmaker Mode)",
@@ -284,7 +281,7 @@
       "Brightness Booster",
       "Netflix/YouTube/PrimeVideo/Spotify",
       "4K, 4 HDMI ports, Internet Wifi",
-      "Condition: New. Barely used. In its original box"
+      "Condition: 0yr! New and Barely used. Is in the original box"
     ],
     "state": "available"
   },
@@ -301,7 +298,7 @@
       "Height: 33.0",
       "Width: 17.0",
       "Depth: 17.0",
-      "Condition: New. Not used. In its original box"
+      "Condition: 0yr. New. In its original box"
     ],
     "state": "available"
   },

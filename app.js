@@ -154,7 +154,7 @@ const ProductCard = (props) => {
             </span>
             <div className="box">
                 <span>📞</span>
-                <button className="payment">&nbsp;Contact</button>
+                <button className="payment">Contact</button>
             </div>
         </a>
     </div>

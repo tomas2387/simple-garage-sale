@@ -184,8 +184,17 @@ fetch("./data.json")
   .then((response) => response.json())
     .then((productsData) =>
         productsData
-            .sort((a, b) =>
-                calculateDiscount(a.price, a.originalPrice) - calculateDiscount(b.price, b.originalPrice))
+            .sort((a, b) => {
+                console.log(a.position, b.position)
+                if (a.position > b.position || a.position && !b.position) {
+                    return 1;
+                }
+                if (a.position < b.position || !a.position && b.position) {
+                    console.log("here")
+                    return -1;
+                }
+                return calculateDiscount(a.price, a.originalPrice) - calculateDiscount(b.price, b.originalPrice);
+            })
             .reverse()
     )
 

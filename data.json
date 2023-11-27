@@ -3,7 +3,7 @@
     "name": "FULL Bedroom Set",
     "url": "https://tomas2387.github.io/simple-garage-sale/img/bedroom-set.png",
     "imageUrl": "img/bedroom-set.png",
-    "position": 1,
+
     "originalPrice": 4200,
     "price": 1999,
     "details": [
@@ -35,7 +35,7 @@
     "name": "LivingRoom Tables Set",
     "url": "img/tables-set.jpg",
     "imageUrl": "img/tables-set.jpg",
-    "position": 1,
+
     "originalPrice": 1530,
     "price": 750,
     "details": [
@@ -111,7 +111,7 @@
       "img/gia-ottoman.png"
     ],
     "originalPrice": 2419.97,
-    "position": 1,
+
     "price": 999,
     "details": [
       "Gia Sofa - Sugarshack Vanilla. Original price: $1099.99",
@@ -278,7 +278,6 @@
     "url": "https://www.conns.com/lg-65-c2-evo-oled-tv-oled65c2pua.html?utm_content=TV+%26+Audio+%26+Electronics+%3E+Televisions+%3E+OLED+TVs&utm_medium=cpc&utm_source=google&utm_campaign=conns_us_ggl_pla_shopping_tvs-sale_pros_na_na_na_na_na_eng&utm_id=20310463134&utm_content=LG&utm_term=PRODUCT_GROUP&device=c&gad_source=1&gclid=CjwKCAiA04arBhAkEiwAuNOsInuHafuTEzG0XMWV4pj6tRFR5RX_HXpNmY01OQbLMna9HTfcStqeXhoCSqwQAvD_BwE&gclsrc=aw.ds",
     "imageUrl": "https://cdn11.bigcommerce.com/s-s8pq4kiarm/images/stencil/1280x1280/products/6026/88620/2022_OLED55C2PUA_1_i2t0ub__50259.1696358621.jpg?c=1",
     "originalPrice": 1699.99,
-    "position": 3,
     "price": 1200,
     "details": [
       "ALMOST NEW!",

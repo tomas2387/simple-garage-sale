@@ -213,8 +213,7 @@ fetch("./data.json")
                     return 1;
                 }
 
-
-                return calculateDiscount(a.price, a.originalPrice) - calculateDiscount(b.price, b.originalPrice);
+                return a.price - b.price;
             })
             .reverse()
     )

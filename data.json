@@ -150,6 +150,21 @@
     "state": "available"
   },
   {
+    "name": "Nespresso Breville Essenza Plus and Aeroccino 3 Milk Frother",
+    "url": "https://www.breville.com/us/en/products/nespresso/bec320.html",
+    "imageUrl": "img/nespresso-set.jpg",
+    "originalPrice": 259.95,
+    "price": 99,
+    "details": [
+      "Nespresso Breville Essenza Plus and Aeroccino 3 Milk Frother",
+      "Perfect for an espresso, a Lungo, an Americano, or even tea with the hot water option.",
+      "The whole set comes with 40 capsules",
+      "Espresso, Lungo, Americano & Americano XL",
+      "Condition: Used"
+    ],
+    "state": "available"
+  },
+  {
     "name": "Herman Miller Humanspine Executer Chair",
     "url": "https://seatingmind.com/humanspine-executer-all-mesh-office-chair-by-modsavy-brand-new/",
     "imageUrl": "https://cdn11.bigcommerce.com/s-rb8ue6qv0m/images/stencil/960w/products/2708/19153/51Z9X0O0_lL__28004.1699893785.jpg?c=2",

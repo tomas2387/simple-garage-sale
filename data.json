@@ -110,7 +110,7 @@
     "state": "available"
   },
   {
-    "name": "Christmas Tree",
+    "name": "Christmas Tree + FREE LIGHTS",
     "url": "https://www.hobbylobby.com/Christmas/Artificial-Christmas-Trees/7-75-Feet/Slim-Yuletide-Pine-Christmas-Tree--75/p/138582?srsltid=AfmBOop5t8ZrUXTogJazMXZZdxN3RRXvsM7Yijpcvm3HUt4Vz1K9QFzSFW0",
     "imageUrl": "https://cdn.media.amplience.net/i/hobbylobby/911289-138582-a?fmt=webp&w=736&h=736&sm=mc",
     "originalPrice": 119.99,
@@ -308,6 +308,18 @@
       "Width: 17.0",
       "Depth: 17.0",
       "Condition: New. Not used. In its original box"
+    ],
+    "state": "available"
+  },
+  {
+    "name": "NÄVLINGE Desktop Table Lamp",
+    "url": "https://www.ikea.com/us/en/p/naevlinge-led-work-lamp-white-00404925/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Lighting_&_Home_electronics&gad_source=1",
+    "imageUrl": "https://www.ikea.com/us/en/images/products/naevlinge-led-work-lamp-white__0725922_pe735092_s5.jpg?f=s",
+    "originalPrice": 21,
+    "price": 10,
+    "details": [
+        "NÄVLINGE LED work lamp, white",
+        "Condition: Like New"
     ],
     "state": "available"
   },

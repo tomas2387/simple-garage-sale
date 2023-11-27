@@ -101,13 +101,13 @@
   {
     "name": "Sofa, Chair and Ottoman",
     "url": [
-      "img/livingroom-set.png",
-      "img/gia-sofa.png",
+      "img/gia-sofa.jpg",
+      "img/gia-chair.png",
       "img/gia-ottoman.png"
     ],
     "imageUrl": [
-      "img/livingroom-set.png",
-      "img/gia-sofa.png",
+      "img/gia-sofa.jpg",
+      "img/gia-chair.png",
       "img/gia-ottoman.png"
     ],
     "originalPrice": 2419.97,

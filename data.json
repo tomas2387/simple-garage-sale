@@ -97,6 +97,31 @@
     "state": "available"
   },
   {
+    "name": "HP Printer with Scanner",
+    "url": "https://support.hp.com/us-en/product/details/hp-deskjet-2700e-all-in-one-series/model/2100709835",
+    "imageUrl": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07251971.png",
+    "originalPrice": 54.99,
+    "price": 20,
+    "details": [
+      "HP DeskJet 2700e All-in-One Printer",
+      "Condition: Like New"
+    ],
+    "state": "available"
+  },
+  {
+    "name": "Herman Miller Humanspine Executer Chair",
+    "url": "https://seatingmind.com/humanspine-executer-all-mesh-office-chair-by-modsavy-brand-new/",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-rb8ue6qv0m/images/stencil/960w/products/2708/19153/51Z9X0O0_lL__28004.1699893785.jpg?c=2",
+    "originalPrice": 350,
+    "price": 150,
+    "details": [
+      "Herman Miller Humanspine Executer Chair",
+      "Ergonomic Office Chair with Reclining Backrest",
+      "Condition: Like New"
+    ],
+    "state": "available"
+  },
+  {
     "name": "Gia Ottoman",
     "url": "img/gia-ottoman.png",
     "imageUrl": "img/gia-ottoman.png",

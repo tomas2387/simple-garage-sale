@@ -112,6 +112,7 @@ header {
 }
 
 .price {
+  min-width: 180px;
   bottom: 0;
   height: 60px;
   line-height: 60px;

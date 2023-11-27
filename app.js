@@ -148,10 +148,10 @@ const ProductCard = (props) => {
             </ul>
         </div>
         <a href={sendSmsUrl(p)} className="box-price">
-        <span className="price">
-            <span className="old-price">{formatPrice(p.originalPrice)}</span>
-            <span className={"new-price"}>{formatPrice(p.price)}</span>
-        </span>
+            <span className="price">
+                <span className="old-price">{formatPrice(p.originalPrice)}</span>
+                <span className={"new-price"}>{formatPrice(p.price)}</span>
+            </span>
             <div className="box">
                 <span>📞</span>
                 <button className="payment">&nbsp;Contact</button>

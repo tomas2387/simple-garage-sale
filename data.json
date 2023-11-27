@@ -55,60 +55,6 @@
     "state": "available"
   },
   {
-    "name": "ZUO Coffee table",
-    "url": "https://travisdavid.com/zuo-modern-verona-coffee-table/",
-    "imageUrl": "https://cdn11.bigcommerce.com/s-97fac/images/stencil/1280x1280/products/135709/213996/101735-2__41341.1668591060.jpg?c=2",
-    "originalPrice": 520,
-    "price": 300,
-    "details": [
-      "ZUO Coffee table",
-      "17.7\" H x 34.4\" W x 34.4\" D",
-      "Weight: 360 lbs",
-      "Condition: Like New"
-    ],
-    "state": "available"
-  },
-  {
-    "name": "ZUO End table",
-    "url": "https://travisdavid.com/zuo-modern-verona-side-table/",
-    "imageUrl": "https://cdn11.bigcommerce.com/s-97fac/images/stencil/2560w/products/135708/213995/101734-2__14914.1668591059.jpg?c=2",
-    "originalPrice": 375,
-    "price": 250,
-    "details": [
-      "Available Units: 2",
-      "ZUO Coffee table",
-      "17.7\" H x 34.4\" W x 34.4\" D",
-      "Weight: 360 lbs",
-      "Condition: Like New"
-    ],
-    "state": "available"
-  },
-  {
-    "name": "Gia Sofa Chair",
-    "url": "img/gia-sofa.png",
-    "imageUrl": "img/gia-sofa.png",
-    "originalPrice": 849.99,
-    "price": 450,
-    "details": [
-      "Gia Sofa Chair",
-      "Sugarshack Vanilla",
-      "Condition: Like New"
-    ],
-    "state": "available"
-  },
-  {
-    "name": "HP Printer with Scanner",
-    "url": "https://support.hp.com/us-en/product/details/hp-deskjet-2700e-all-in-one-series/model/2100709835",
-    "imageUrl": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07251971.png",
-    "originalPrice": 54.99,
-    "price": 20,
-    "details": [
-      "HP DeskJet 2700e All-in-One Printer",
-      "Condition: Like New"
-    ],
-    "state": "available"
-  },
-  {
     "name": "Breville Smart Oven Pro Toaster Oven",
     "url": "https://www.amazon.com/Breville-BOV845BSS-Convection-Toaster-Stainless/dp/B00XBOXVIA/ref=sr_1_4?hvadid=570569804336&hvdev=c&hvlocphy=1026481&hvnetw=g&hvqmt=e&hvrand=13326674466562006704&hvtargid=kwd-11162956169&hydadcr=13961_13379056&keywords=breville+convection+oven&qid=1701102261&sr=8-4",
     "imageUrl": "https://m.media-amazon.com/images/I/61hOop74peL._AC_SX569_.jpg",
@@ -121,31 +67,6 @@
       "1800 Watt countertop oven",
       "Reduces cooking time by up to 30%",
       "Condition: Like New"
-    ],
-    "state": "available"
-  },
-  {
-    "name": "Blink Video Doorbell",
-    "url": "https://www.amazon.com/Blink-Video-Doorbell/dp/B08SG2MS3V/ref=asc_df_B08SG2MS3V/?tag=hyprod-20&linkCode=df0&hvadid=532762358608&hvpos=&hvnetw=g&hvrand=7217575838249975265&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1026481&hvtargid=pla-1436507321264&psc=1&mcid=0872fbdf26fe3be8aae98f718d7fff7e&gclid=CjwKCAiAmZGrBhAnEiwAo9qHiZ8vxNFC8g4YonAwijOaXBuoqJncyf01d7DEp3sRmPwI_nE3wfXxERoCEQsQAvD_BwE",
-    "imageUrl": "https://m.media-amazon.com/images/I/41te-uzWxDL._AC_SY450_.jpg",
-    "originalPrice": 29.99,
-    "price": 10,
-    "details": [
-      "Blink Video Doorbell standalone unit",
-      "Two-way audio, HD video, motion and chime app alerts and Alexa enabled",
-      "Condition: Used. In its original box"
-    ],
-    "state": "available"
-  },
-  {
-    "name": "Hair dryer",
-    "url": "https://www.amazon.com/REMINGTON-Shine-Therapy-Argan-Keratin-Hair-Dryer-Dryer/dp/B09RRYZVRM/ref=asc_df_B09RRYZVRM/?tag=hyprod-20&linkCode=df0&hvadid=563772971420&hvpos=&hvnetw=g&hvrand=12042740036129658959&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1026481&hvtargid=pla-1710600073437&psc=1&mcid=28d3a2b1189439c68a51de8416404607&gclid=CjwKCAiAmZGrBhAnEiwAo9qHibbG_fr6fTk4uVodjbTEqndBofUtbj0EOrRn51jYgi5Gby8_LIZmEBoCcaUQAvD_BwE",
-    "imageUrl": "https://m.media-amazon.com/images/I/718BkJwrvkL._SX466_.jpg",
-    "originalPrice": 26.99,
-    "price": 10,
-    "details": [
-      "5 Heat + 2 Speed Settings + Cool Shot: Find the temperature and airflow you prefer for your hair with 3 heat and 2 speed settings.",
-      "Condition: Used"
     ],
     "state": "available"
   },
@@ -196,19 +117,6 @@
       "Gia Sofa - Sugarshack Vanilla. Original price: $1099.99",
       "Gia Sofa Chair - Sugarshack Vanilla. Original price: $849.99",
       "Gia Ottoman - Sugarshack Vanilla. Original price: $469.99",
-      "Condition: Like New"
-    ],
-    "state": "available"
-  },
-  {
-    "name": "Gia Ottoman",
-    "url": "img/gia-ottoman.png",
-    "imageUrl": "img/gia-ottoman.png",
-    "originalPrice": 469.99,
-    "price": 250,
-    "details": [
-      "Gia Sofa Chair",
-      "Sugarshack Vanilla",
       "Condition: Like New"
     ],
     "state": "available"
@@ -347,18 +255,6 @@
     "buyer": "M."
   },
   {
-    "name": "Laptop Stand",
-    "url": "https://www.amazon.com/Laptop-Notebook-Stand-Lamicall-Riser/dp/B07CD8LGJ7/ref=sr_1_6?crid=3J9IU5TTG2AFC&keywords=lamicall%2Blaptop%2Bstand&qid=1700884691&sprefix=laptop%2Blamicall%2Caps%2C159&sr=8-6&th=1",
-    "imageUrl": "https://m.media-amazon.com/images/I/61aZ8qYgP2L._AC_SX679_.jpg",
-    "originalPrice": 26,
-    "price": 10,
-    "details": [
-      "Silver rotatable laptop stand holder",
-      "Condition: Like New"
-    ],
-    "state": "available"
-  },
-  {
     "name": "Levoit Air Purifier",
     "url": "https://www.amazon.com/LEVOIT-Purifier-Home-Allergies-Pets/dp/B07VVK39F7/ref=sr_1_3_pp?hvadid=557282111177&hvdev=c&hvlocphy=1026481&hvnetw=g&hvqmt=e&hvrand=15736074482202138621&hvtargid=kwd-449431868629&hydadcr=28564_14526821&keywords=levoit%2Bair%2Bpurifier&qid=1700884760&sr=8-3&th=1",
     "imageUrl": "https://m.media-amazon.com/images/I/71H9Q5D9Q5L._AC_SY879_.jpg",
@@ -382,6 +278,7 @@
     "url": "https://www.conns.com/lg-65-c2-evo-oled-tv-oled65c2pua.html?utm_content=TV+%26+Audio+%26+Electronics+%3E+Televisions+%3E+OLED+TVs&utm_medium=cpc&utm_source=google&utm_campaign=conns_us_ggl_pla_shopping_tvs-sale_pros_na_na_na_na_na_eng&utm_id=20310463134&utm_content=LG&utm_term=PRODUCT_GROUP&device=c&gad_source=1&gclid=CjwKCAiA04arBhAkEiwAuNOsInuHafuTEzG0XMWV4pj6tRFR5RX_HXpNmY01OQbLMna9HTfcStqeXhoCSqwQAvD_BwE&gclsrc=aw.ds",
     "imageUrl": "https://cdn11.bigcommerce.com/s-s8pq4kiarm/images/stencil/1280x1280/products/6026/88620/2022_OLED55C2PUA_1_i2t0ub__50259.1696358621.jpg?c=1",
     "originalPrice": 1699.99,
+    "position": 3,
     "price": 1200,
     "details": [
       "ALMOST NEW!",
@@ -412,18 +309,6 @@
       "Width: 17.0",
       "Depth: 17.0",
       "Condition: New. Not used. In its original box"
-    ],
-    "state": "available"
-  },
-  {
-    "name": "NÄVLINGE Desktop Table Lamp",
-    "url": "https://www.ikea.com/us/en/p/naevlinge-led-work-lamp-white-00404925/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Lighting_&_Home_electronics&gad_source=1",
-    "imageUrl": "https://www.ikea.com/us/en/images/products/naevlinge-led-work-lamp-white__0725922_pe735092_s5.jpg?f=s",
-    "originalPrice": 21,
-    "price": 10,
-    "details": [
-      "NÄVLINGE LED work lamp, white",
-      "Condition: Like New"
     ],
     "state": "available"
   },

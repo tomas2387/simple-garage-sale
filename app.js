@@ -186,13 +186,34 @@ fetch("./data.json")
         productsData
             .sort((a, b) => {
                 console.log(a.position, b.position)
-                if (a.position > b.position || a.position && !b.position) {
+                if (a.position < b.position || a.position && !b.position) {
                     return 1;
                 }
-                if (a.position < b.position || !a.position && b.position) {
-                    console.log("here")
+                if (a.position > b.position || !a.position && b.position) {
                     return -1;
                 }
+                // If item is reserved or bought it should be placed at the end
+                // If item is reserved it should be placed before sold
+                if (a.state === "sold" && b.state !== "sold") {
+                    return -1;
+                }
+                if (a.state !== "sold" && b.state === "sold") {
+                    return 1;
+                }
+                if (a.state === "reserved" && b.state !== "reserved") {
+                    return -1;
+                }
+                if (a.state !== "reserved" && b.state === "reserved") {
+                    return 1;
+                }
+                if (a.state === "notavailable" && b.state !== "notavailable") {
+                    return -1;
+                }
+                if (a.state !== "notavailable" && b.state === "notavailable") {
+                    return 1;
+                }
+
+
                 return calculateDiscount(a.price, a.originalPrice) - calculateDiscount(b.price, b.originalPrice);
             })
             .reverse()

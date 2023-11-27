@@ -70,17 +70,35 @@ const ProductDetailItemList = ({detail}) => {
 }
 
 const ProductImage = ({state, imageUrl}) => {
+
+    let firstImage = imageUrl;
+    if (Array.isArray(imageUrl)) {
+        firstImage = imageUrl[0];
+    }
+
     switch (state) {
         case "sold":
-            return <img className="product-img product-img-filter-sold" src={imageUrl} loading="lazy"/>
+            return <img className="product-img product-img-filter-sold" src={firstImage} loading="lazy"/>
         case "reserved":
-            return <img className="product-img product-img-filter-reserved" src={imageUrl} loading="lazy"/>
+            return <img className="product-img product-img-filter-reserved" src={firstImage} loading="lazy"/>
         case "notavailable":
-            return <img className="product-img product-img-filter-notavailable" src={imageUrl} loading="lazy"/>
+            return <img className="product-img product-img-filter-notavailable" src={firstImage} loading="lazy"/>
         case "available":
-            return <img className="product-img" src={imageUrl} loading="lazy"/>
         default:
-            return <img className="product-img" src={imageUrl} loading="lazy"/>
+            if (Array.isArray(imageUrl)) {
+                return <div className={"slides-container"}>
+                    <div className={"slides"}>
+                        {imageUrl.map((image, index, array) => <><span
+                            className={"slides-number"}>{index + 1} / {array.length}</span>
+                            <img className="product-img" src={image} loading="lazy"/></>)}
+                    </div>
+                    <!-- Next and previous buttons -->
+                    <a className="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a className="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            }
+
+            return <img className="product-img" src={firstImage} loading="lazy"/>
     }
 }
 

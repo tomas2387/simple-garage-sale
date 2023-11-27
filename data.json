@@ -33,7 +33,7 @@
   {
     "name": "FULL LivingRoom Set",
     "url": "https://tomas2387.github.io/simple-garage-sale/img/bedroom-set.png",
-    "imageUrl": "/img/livingroom-set.png",
+    "imageUrl": "img/livingroom-set.png",
     "originalPrice": 2259,
     "price": 999,
     "details": [
@@ -59,6 +59,19 @@
     "url": "https://travisdavid.com/zuo-modern-verona-coffee-table/",
     "imageUrl": "https://cdn11.bigcommerce.com/s-97fac/images/stencil/1280x1280/products/135709/213996/101735-2__41341.1668591060.jpg?c=2",
     "originalPrice": 520,
+    "price": 250,
+    "details": [
+      "ZUO Coffee table",
+      "17.7\" H x 34.4\" W x 34.4\" D",
+      "Weight: 360 lbs"
+    ],
+    "state": "available"
+  },
+  {
+    "name": "ZUO End table",
+    "url": "https://travisdavid.com/zuo-modern-verona-side-table/",
+    "imageUrl": "",
+    "originalPrice": 375,
     "price": 250,
     "details": [
       "ZUO Coffee table",

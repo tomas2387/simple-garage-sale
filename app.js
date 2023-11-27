@@ -92,7 +92,6 @@ const ProductImage = ({state, imageUrl}) => {
                             className={"slides-number"}>{index + 1} / {array.length}</span>
                             <img className="product-img" src={image} loading="lazy"/></>)}
                     </div>
-                    <!-- Next and previous buttons -->
                     <a className="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a className="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>

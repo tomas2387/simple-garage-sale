@@ -3,6 +3,7 @@
     "name": "FULL Bedroom Set",
     "url": "https://tomas2387.github.io/simple-garage-sale/img/bedroom-set.png",
     "imageUrl": "img/bedroom-set.png",
+    "position": 1,
     "originalPrice": 4200,
     "price": 1999,
     "details": [
@@ -31,26 +32,25 @@
     "state": "available"
   },
   {
-    "name": "FULL LivingRoom Set",
-    "url": "https://tomas2387.github.io/simple-garage-sale/img/bedroom-set.png",
-    "imageUrl": "img/livingroom-set.png",
-    "originalPrice": 2259,
-    "price": 999,
+    "name": "LivingRoom Tables Set",
+    "url": "img/tables-set.jpg",
+    "imageUrl": "img/tables-set.jpg",
+    "position": 1,
+    "originalPrice": 1530,
+    "price": 750,
     "details": [
       {
-        "text": "ZUO Coffee table. Original price: $520.00",
+        "text": "ZUO Coffee table. Original price: $780.00",
         "link": "https://travisdavid.com/zuo-modern-verona-coffee-table/"
       },
       {
-        "text": "ZUO End table. Original price: $250.00",
+        "text": "ZUO End table. Original price: $375.00",
         "link": "https://travisdavid.com/zuo-modern-verona-side-table/"
       },
       {
-        "text": "ZUO End table. Original price: $250.00",
+        "text": "ZUO End table. Original price: $375.00",
         "link": "https://travisdavid.com/zuo-modern-verona-side-table/"
-      },
-      "Gia Sofa - Sugarshack Vanilla. Original price: $1099.99",
-      "Ivory Rug 8\"x11\""
+      }
     ],
     "state": "available"
   },
@@ -59,7 +59,7 @@
     "url": "https://travisdavid.com/zuo-modern-verona-coffee-table/",
     "imageUrl": "https://cdn11.bigcommerce.com/s-97fac/images/stencil/1280x1280/products/135709/213996/101735-2__41341.1668591060.jpg?c=2",
     "originalPrice": 520,
-    "price": 250,
+    "price": 300,
     "details": [
       "ZUO Coffee table",
       "17.7\" H x 34.4\" W x 34.4\" D",
@@ -88,11 +88,11 @@
     "url": "img/gia-sofa.png",
     "imageUrl": "img/gia-sofa.png",
     "originalPrice": 849.99,
-    "price": 400,
+    "price": 450,
     "details": [
-        "Gia Sofa Chair",
+      "Gia Sofa Chair",
       "Sugarshack Vanilla",
-      "Condition: Used"
+      "Condition: Like New"
     ],
     "state": "available"
   },
@@ -178,15 +178,38 @@
     "state": "available"
   },
   {
+    "name": "Sofa, Chair and Ottoman",
+    "url": [
+      "img/livingroom-set.png",
+      "img/gia-sofa.png",
+      "img/gia-ottoman.png"
+    ],
+    "imageUrl": [
+      "img/livingroom-set.png",
+      "img/gia-sofa.png",
+      "img/gia-ottoman.png"
+    ],
+    "originalPrice": 2419.97,
+    "position": 1,
+    "price": 999,
+    "details": [
+      "Gia Sofa - Sugarshack Vanilla. Original price: $1099.99",
+      "Gia Sofa Chair - Sugarshack Vanilla. Original price: $849.99",
+      "Gia Ottoman - Sugarshack Vanilla. Original price: $469.99",
+      "Condition: Like New"
+    ],
+    "state": "available"
+  },
+  {
     "name": "Gia Ottoman",
     "url": "img/gia-ottoman.png",
     "imageUrl": "img/gia-ottoman.png",
     "originalPrice": 469.99,
-    "price": 200,
+    "price": 250,
     "details": [
-        "Gia Sofa Chair",
+      "Gia Sofa Chair",
       "Sugarshack Vanilla",
-      "Condition: Used"
+      "Condition: Like New"
     ],
     "state": "available"
   },
@@ -197,7 +220,7 @@
     "originalPrice": 119.99,
     "price": 50,
     "details": [
-        "Slim Yuletide Pine Christmas Tree",
+      "Slim Yuletide Pine Christmas Tree",
       "Comes with decorations and lights",
       "7.5' tall",
       "Condition: Like New. In its original box"
@@ -226,7 +249,7 @@
     "name": "Console Table",
     "url": "https://www.amazon.com/dp/B07TM7THFD?ref_=cm_sw_r_apin_dp_2CCF2551PP8A711K0405&th=1",
     "imageUrl": "https://m.media-amazon.com/images/I/613FU-EYjoL._AC_SX679_.jpg",
-    "originalPrice":  112.79,
+    "originalPrice": 112.79,
     "price": 75,
     "details": [
       "Space friendly bedroom or sofa table",
@@ -256,12 +279,12 @@
     "name": "White TV Stand",
     "url": "https://www.amazon.com/dp/B0C2C2C1V9?ref_=cm_sw_r_apin_dp_1M5XZVZE211TMD9TA9V3",
     "imageUrl": "https://m.media-amazon.com/images/I/71WJncf7udL._AC_SX679_.jpg",
-    "originalPrice":   398.09,
+    "originalPrice": 398.09,
     "price": 175,
     "details": [
       "3-In-1 Large TV Stand",
-        "Accommodates most flat panel TVs up to 70\" and 135 lbs",
-        "Large Tabletop & Storage Space",
+      "Accommodates most flat panel TVs up to 70\" and 135 lbs",
+      "Large Tabletop & Storage Space",
       "RGB LED Lights",
       "Condition: Like New"
     ],
@@ -399,8 +422,8 @@
     "originalPrice": 21,
     "price": 10,
     "details": [
-        "NÄVLINGE LED work lamp, white",
-        "Condition: Like New"
+      "NÄVLINGE LED work lamp, white",
+      "Condition: Like New"
     ],
     "state": "available"
   },
@@ -408,7 +431,7 @@
     "name": "Viewsonic Curve Monitor 38",
     "url": "https://www.viewsonic.com/us/products/monitors/professional-monitors/vp3881a-38-colorprotm-21-9-curved-wqhd-ips-monitor-with-90w-usb-c-rj45-and-srgb.html?gad_source=1",
     "imageUrl": "https://www.viewsonic.com/media/catalog/product/cache/06191322128cc553887330cc5a9fd96a/v/p/vp3881a_front_hires.png",
-    "originalPrice":  1257.99,
+    "originalPrice": 1257.99,
     "price": 600,
     "details": [
       "38 Inch ultrawide 21:9 WQHD+ (3840x1600p) 2300R curved monitor with IPS, thin bezels and HDR10",

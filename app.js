@@ -69,7 +69,7 @@ const ProductDetailItemList = ({detail}) => {
     }
 }
 
-const ProductImage = ({state, imageUrl}) => {
+const ProductImage = ({state, imageUrl, url}) => {
 
     let firstImage = imageUrl;
     if (Array.isArray(imageUrl)) {
@@ -78,22 +78,31 @@ const ProductImage = ({state, imageUrl}) => {
 
     switch (state) {
         case "sold":
-            return <img className="product-img product-img-filter-sold" src={firstImage} loading="lazy"/>
+            return <a href={url} target={"_blank"}><img className="product-img product-img-filter-sold" src={firstImage} loading="lazy"/></a>
         case "reserved":
-            return <img className="product-img product-img-filter-reserved" src={firstImage} loading="lazy"/>
+            return <a href={url} target={"_blank"}><img className="product-img product-img-filter-reserved" src={firstImage} loading="lazy"/></a>
         case "notavailable":
-            return <img className="product-img product-img-filter-notavailable" src={firstImage} loading="lazy"/>
+            return <a href={url} target={"_blank"}><img className="product-img product-img-filter-notavailable" src={firstImage} loading="lazy"/></a>
         case "available":
         default:
             if (Array.isArray(imageUrl)) {
                 return <div className={"slides-container"}>
                     <div className={"slides"}>
-                        {imageUrl.map((image, index, array) => <><span
-                            className={"slides-number"}>{index + 1} / {array.length}</span>
-                            <img className="product-img" src={image} loading="lazy"/></>)}
+                        {imageUrl.map((image, index, array) => {
+                            let currentUrl = url;
+                            if (Array.isArray(url)) {
+                                if (url[index]) {
+                                    currentUrl = url[index];
+                                } else {
+                                    currentUrl = url[0];
+                                }
+                            }
+                            return <>
+                            <span className={"slides-number"}>{index + 1} / {array.length}</span>
+                                <a href={currentUrl} target={"_blank"}><img className="product-img" src={image} loading="lazy"/></a>
+                        </>
+                        })}
                     </div>
-                    <a className="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a className="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
             }
 
@@ -101,16 +110,25 @@ const ProductImage = ({state, imageUrl}) => {
     }
 }
 
-const MoreInfoItemList = ({url}) => {
+const MoreInfoItemList = ({url, extraInfo}) => {
+    if (!extraInfo) {
+        extraInfo = "";
+    }
+
     if (!url) {
         return null;
     }
+
+    if (Array.isArray(url)) {
+        return url.map((url, index) => <MoreInfoItemList url={url} extraInfo={index+1} />);
+    }
+
     const extension = url.split('.').pop();
     const isImage = ["jpg", "jpeg", "png", "gif"].includes(extension);
     const isAmazonLink = /amazon/.test(url);
 
     if (isImage) {
-        return <li><a href={url} target={"_blank"}>See the big picture here</a></li>;
+        return <li><a href={url} target={"_blank"}>See the big picture here {extraInfo? `(${extraInfo})` : null}</a></li>;
     }
 
     if (isAmazonLink) {
@@ -131,12 +149,12 @@ const ProductCard = (props) => {
 
   return (
     <div className="product">
-        <a href={p.url} target="_blank">
+        <>
           <span className="product-span">
             <AvailableLabel state={p.state}/>
-            <ProductImage state={p.state} imageUrl={p.imageUrl}/>
+            <ProductImage state={p.state} imageUrl={p.imageUrl} url={p.url} />
           </span>
-        </a>
+        </>
         <div className="product-details">
             <h3>{p.name}</h3>
             {discount > 0 && <span className="discount">-{discount}%</span>}

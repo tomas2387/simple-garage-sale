@@ -114,8 +114,6 @@ header {
 .price {
   min-width: 180px;
   bottom: 0;
-  height: 60px;
-  line-height: 60px;
   color: #fff;
   background-color: #ffcc00;
   text-align: left;
@@ -229,18 +227,18 @@ header {
 .old-price {
   text-decoration: line-through;
   color: #888;
+  top: 4px;
   display: inline-block;
   font-size: 15px;
   opacity: 0.8;
   vertical-align: top;
   position: relative;
-  top: -10px;
 }
 
 .new-price {
   color: #fff;
   position: relative;
   left: -20%;
-  top: 9px;
+  top: 20px;
   min-width: 100px;
 }

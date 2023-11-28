@@ -65,7 +65,7 @@ const ProductDetailItemList = ({detail}) => {
     }
 
     if (typeof detail === "object") {
-        return <li>{detail.text}. <a href={detail.link} target={"_blank"}>More info</a></li>
+        return <li style={detail.style}>{detail.text}{detail.link ? <>. <a href={detail.link} target={"_blank"}>More info</a></> : null}</li>
     }
 }
 

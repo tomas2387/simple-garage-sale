@@ -29,6 +29,13 @@
       {
         "text": "Pax 2 Light 30-1/2\" Tall Buffet Table Lamp x2 (one for each nightstand). Original price: $265.00",
         "link": "https://www.lightingdirect.com/lite-source-ls-23165-pax-2-light-30-1-2-tall-buffet-table-lamp/p3466201"
+      },
+      {
+        "text": "Condition: +1yr. Like New!",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
       }
     ],
     "state": "available"
@@ -59,6 +66,13 @@
       {
         "text": "Pax 2 Light 30-1/2\" Tall Buffet Table Lamp x2 (one for each nightstand). Original price: $265.00",
         "link": "https://www.lightingdirect.com/lite-source-ls-23165-pax-2-light-30-1-2-tall-buffet-table-lamp/p3466201"
+      },
+      {
+        "text": "Condition: +1yr. Like New!",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
       }
     ],
     "state": "available"
@@ -85,7 +99,15 @@
       {
         "text": "2x ZUO End table. Finest black marble with gold metal. Original price: $375.00 each",
         "link": "https://travisdavid.com/zuo-modern-verona-side-table/"
+      },
+      {
+        "text": "Condition: +1yr. Like New!",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
       }
+
     ],
     "state": "available"
   },
@@ -101,7 +123,13 @@
       "Product Dimensions: 14.5\"D x 18.5\"W x 11\"H",
       "1800 Watt countertop oven",
       "Reduces cooking time by up to 30%",
-      "Condition: +1yr. Like New!"
+      {
+        "text": "Condition: +1yr. Like New!",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -116,7 +144,13 @@
       "Perfect for an espresso, a Lungo, an Americano, or even tea with the hot water option.",
       "The whole set comes with 40 capsules",
       "Espresso, Lungo, Americano & Americano XL",
-      "Condition: +1yr. Used"
+      {
+        "text": "Condition: +1yr. Used",
+        "style": {
+          "color": "red",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -129,7 +163,13 @@
     "details": [
       "Herman Miller Humanspine Executer Chair",
       "Ergonomic Office Chair with Reclining Backrest",
-      "Condition: +1yr. Like New!"
+      {
+        "text": "Condition: +1yr. Like New!",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -151,7 +191,13 @@
       "Gia Sofa - Sugarshack Vanilla. Original price: $1099.99",
       "Gia Sofa Chair - Sugarshack Vanilla. Original price: $849.99",
       "Gia Ottoman - Sugarshack Vanilla. Original price: $469.99",
-      "Condition: Like New!"
+      {
+        "text": "Condition: +1yr. Like New!",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -165,7 +211,13 @@
       "Slim Yuletide Pine Christmas Tree",
       "Comes with decorations and lights",
       "7.5' tall",
-      "Condition: 1yr old. Like New!. In its original box"
+      {
+        "text": "Condition: 1yr old. Like New!. In its original box",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -183,7 +235,13 @@
       "Includes two 120V power outlets and 2 USB ports for charging personal electronics",
       "Chrome look metal legs",
       "Pocket coil cushions",
-      "Condition: +1 yr! Almost New!"
+      {
+        "text": "Condition: +1 yr! Almost New!",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -197,7 +255,13 @@
       "Space friendly bedroom or sofa table",
       "Gold finish with gray faux marble",
       "Size: 52\" W x 10\" D x 29\" H",
-      "Condition: Like New"
+      {
+        "text": "Condition: 0yr. New!",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "reserved",
     "buyer": "M."
@@ -213,7 +277,13 @@
       "Engineered wood for durability",
       "6 cubes for ample storage space",
       "Comes with 1 storage bin",
-      "Condition: Like New"
+      {
+        "text": "Condition: +0yr. Like New",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -228,7 +298,13 @@
       "Accommodates most flat panel TVs up to 70\" and 135 lbs",
       "Large Tabletop & Storage Space",
       "RGB LED Lights",
-      "Condition: Like New"
+      {
+        "text": "Condition: Like New",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "sold",
     "buyer": "O."
@@ -241,7 +317,13 @@
     "price": 700,
     "details": [
       "With edge-to-edge lumbar support, the Remedy II Adjustable Bed allows you to save your favorite positions for enhanced relaxation. The Remedy II has a separate section that gives support to your lower back just where you need it to relieve pain. With dual USB outlets, you can keep your devices charged at all times for work or leisure!",
-      "Condition: +1yr. Like New!"
+      {
+        "text": "Condition: +1yr. Like New!",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -253,7 +335,13 @@
     "price": 500,
     "details": [
       "HÅG in Balance® (balanced, flowing tilt function)\n    Integrated Seat slider\n    Height-adjustable back\n    Multiple cylinder heights and ranges for traditional or standing desks\n    Optional footring for additional support\n    Self Locking Multi-Surface Casters",
-      "Condition: Used"
+      {
+        "text": "Condition: +1yr. Used, but like new",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -270,7 +358,13 @@
       "Base diameter: 12 \"",
       "Shade diameter: 6 \"",
       "Cord length: 110 1/4 \"",
-      "Condition: Like New"
+      {
+        "text": "Condition: Like New",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "reserved",
     "buyer": "M."
@@ -283,7 +377,13 @@
     "price": 100,
     "details": [
       "Whiteboard/noticeboard with casters, white, 27 1/2x70 7/8",
-      "Condition: Like New"
+      {
+        "text": "Condition: Like New",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "reserved",
     "buyer": "M."
@@ -302,7 +402,13 @@
       "Floor Area: 1095 Square Feet",
       "Specification Met: Energy Star Certified, ETL Certified, CARB Certified, EPA Certified",
       "Can purify air of a 1,095 ft² space once in one hour",
-      "Condition: Like New"
+      {
+        "text": "Condition: Like New",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "sold",
     "buyer": "M. & J."
@@ -323,7 +429,13 @@
       "Brightness Booster",
       "Netflix/YouTube/PrimeVideo/Spotify",
       "4K, 4 HDMI ports, Internet Wifi",
-      "Condition: 0yr! New and Barely used. Is in the original box"
+      {
+        "text": "Condition: 0yr! New! In the original box",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -340,7 +452,13 @@
       "Height: 33.0",
       "Width: 17.0",
       "Depth: 17.0",
-      "Condition: 0yr. New. In its original box"
+      {
+        "text": "Condition: 0yr. New. In its original box",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -358,7 +476,13 @@
       "100% sRGB, EBU, SMPTE-C, Rec. 709, DCI-P3, and DICOM-SIM color spaces and Delta E<2 accuracy",
       "Hardware calibrated to ensure that the color displayed perfectly matches the original file",
       "The VP3881A supports laptops, PCs, Macs and more with USB C, HDMI, USB and DisplayPort inputs",
-      "Condition: Like New"
+      {
+        "text": "Condition: +1yr. Like New",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   },
@@ -373,7 +497,13 @@
       "Length: 51 1/8",
       "Width: 27 1/2",
       "Height: 29 1/2",
-      "Condition: Like New"
+      {
+        "text": "Condition: +1yr. Like New",
+        "style": {
+          "color": "green",
+          "font-weight": "bold"
+        }
+      }
     ],
     "state": "available"
   }

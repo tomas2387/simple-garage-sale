@@ -147,7 +147,7 @@
       {
         "text": "Condition: +1yr. Used",
         "style": {
-          "color": "red",
+          "color": "green",
           "font-weight": "bold"
         }
       }

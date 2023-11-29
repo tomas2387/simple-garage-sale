@@ -38,7 +38,8 @@
         }
       }
     ],
-    "state": "available"
+    "buyer": "S.M.",
+    "state": "reserved"
   },
   {
     "name": "Bedroom Set without Bed Base",
@@ -75,7 +76,8 @@
         }
       }
     ],
-    "state": "available"
+    "buyer": "S.M.",
+    "state": "reserved"
   },
   {
     "name": "LivingRoom Tables Set",
@@ -111,7 +113,8 @@
       }
 
     ],
-    "state": "available"
+    "buyer": "S.M.",
+    "state": "reserved"
   },
   {
     "name": "Breville Smart Oven Pro Toaster Oven",
@@ -154,7 +157,8 @@
         }
       }
     ],
-    "state": "available"
+    "buyer": "I.",
+    "state": "reserved"
   },
   {
     "name": "Herman Miller Humanspine Executer Chair",
@@ -201,7 +205,8 @@
         }
       }
     ],
-    "state": "available"
+    "buyer": "S.M.",
+    "state": "reserved"
   },
   {
     "name": "Christmas Tree + LIGHTS",

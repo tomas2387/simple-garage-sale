@@ -136,7 +136,8 @@
         }
       }
     ],
-    "state": "available"
+    "buyer": "S.",
+    "state": "reserved"
   },
   {
     "name": "Nespresso Breville Essenza Plus and Aeroccino 3 Milk Frother",
@@ -177,7 +178,8 @@
         }
       }
     ],
-    "state": "available"
+    "buyer": "S.",
+    "state": "reserved"
   },
   {
     "name": "Sofa, Chair and Ottoman",
@@ -226,7 +228,8 @@
         }
       }
     ],
-    "state": "available"
+    "buyer": "S.",
+    "state": "reserved"
   },
   {
     "name": "Convertible Sofa",
@@ -512,6 +515,7 @@
         }
       }
     ],
-    "state": "available"
+    "buyer": "M.",
+    "state": "reserved"
   }
 ]

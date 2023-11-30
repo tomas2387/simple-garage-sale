@@ -16,7 +16,7 @@ class App extends React.PureComponent {
           Tomas Garage Sale: 2LE Unit 559
         </header>
         <h3 className="subtitle">
-          Cash and Zelle payment accepted. Only in The woodlands, Two Lakes Edge area.
+          Cash and Zelle payment accepted. Only in The woodlands area.
             <br></br>
             Contact me: <a href={callUrl()}>346-497-8554</a>
           <p>
